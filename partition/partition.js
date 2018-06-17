@@ -1,7 +1,27 @@
-var width = 1500,
-  height = 500;
+//stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
+https: String.prototype.toProperCase = function() {
+  return this.replace(/\w\S*/g, function(txt) {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
+};
 
-var color = d3.scale.category20();
+var width = 1200,
+  height = 600;
+
+var x = d3.scale.linear().range([0, width]);
+
+var y = d3.scale.linear().range([0, height]);
+
+var color = d3.scale.category20c();
+
+var partition = d3.layout
+  .partition()
+  .children(function(d) {
+    return isNaN(d.value) ? d3.entries(d.value) : null;
+  })
+  .value(function(d) {
+    return d.value;
+  });
 
 var svg = d3
   .select("body")
@@ -9,65 +29,100 @@ var svg = d3
   .attr("width", width)
   .attr("height", height);
 
-var partition = d3.layout
-  .partition()
-  .size([width, height])
-  .value(function(d) {
-    return d.size;
-  });
+var rect = svg.selectAll("rect");
+var labels = svg.selectAll(".label");
 
 d3.json("candidates.json", function(error, root) {
   if (error) throw error;
 
-  var nodes = partition.nodes(root);
+  let nodes = partition(d3.entries(root)[0]);
 
-  svg
-    .selectAll(".node")
+  rect = rect
     .data(nodes)
     .enter()
     .append("rect")
-    .attr("class", "node")
     .attr("x", function(d) {
-      return d.x;
+      return x(d.x);
     })
     .attr("y", function(d) {
-      return d.y;
+      return y(d.y);
     })
     .attr("width", function(d) {
-      return d.dx;
+      return x(d.dx);
     })
     .attr("height", function(d) {
-      return d.dy;
+      return y(d.dy);
     })
-    .style("fill", function(d) {
-      return color(d.name);
-    });
+    .attr("fill", function(d) {
+      return color(d.key);
+    })
+    .on("click", clicked);
 
-  svg
-    .selectAll(".label")
-    .data(
-      nodes.filter(function(d) {
-        return d.dx > 6;
-      })
-    )
+  rect.append("svg:title").text(function(d, i) {
+    return `${d.value.toLocaleString()} votes`;
+  });
+
+  labels = labels
+    .data(nodes)
     .enter()
     .append("text")
-    .attr("class", "label")
+    .classed("label", true)
+    .classed("hidden", function(d) {
+      return x(d.dx) < 10;
+    })
     .attr("dy", ".35em")
     .attr("transform", function(d) {
       return (
-        "translate(" + (d.x + d.dx / 2) + "," + (d.y + d.dy / 2) + ")rotate(90)"
+        "translate(" +
+        x(d.x + d.dx / 2) +
+        "," +
+        y(d.y + d.dy / 2) +
+        ")rotate(90)"
       );
     })
     .text(function(d) {
-      const votes = total(d);
-      return `${d.name} - ${votes}`;
+      return d.key.toProperCase();
     });
 });
 
-function total(d) {
-  if (d.size) return d.size;
-  return d.children.reduce((acc, child) => {
-    return acc + total(child);
-  }, 0);
+function clicked(d) {
+  x.domain([d.x, d.x + d.dx]);
+  y.domain([d.y, 1]).range([d.y ? 20 : 0, height]);
+
+  rect
+    .transition()
+    .duration(750)
+    .attr("x", function(d) {
+      return x(d.x);
+    })
+    .attr("y", function(d) {
+      return y(d.y);
+    })
+    .attr("width", function(d) {
+      return x(d.x + d.dx) - x(d.x);
+    })
+    .attr("height", function(d) {
+      return y(d.y + d.dy) - y(d.y);
+    });
+
+  rect.append("svg:title").text(function(d) {
+    return `${d.value.toLocaleString()} votes`;
+  });
+
+  labels
+    .classed("label", true)
+    .classed("hidden", function(d) {
+      return x(d.x + d.dx) - x(d.x) < 10;
+    })
+    .transition()
+    .duration(750)
+    .attr("transform", function(d) {
+      return (
+        "translate(" +
+        x(d.x + d.dx / 2) +
+        "," +
+        y(d.y + d.dy / 2) +
+        ")rotate(90)"
+      );
+    });
 }
