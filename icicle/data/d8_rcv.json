@@ -1,0 +1,106 @@
+{
+  "All Votes": {
+    "No Vote": {
+      "No Vote": {
+        "JEFF SHEEHY": 4,
+        "LAWRENCE ''STARK'' DAGESSE": 3,
+        "RAFAEL MANDELMAN": 15,
+        "No Vote": 2771
+      },
+      "LAWRENCE ''STARK'' DAGESSE": {
+        "JEFF SHEEHY": 1,
+        "LAWRENCE ''STARK'' DAGESSE": 1,
+        "No Vote": 2
+      },
+      "RAFAEL MANDELMAN": {
+        "JEFF SHEEHY": 5,
+        "LAWRENCE ''STARK'' DAGESSE": 3,
+        "RAFAEL MANDELMAN": 4,
+        "No Vote": 26
+      },
+      "JEFF SHEEHY": {
+        "JEFF SHEEHY": 1,
+        "LAWRENCE ''STARK'' DAGESSE": 6,
+        "RAFAEL MANDELMAN": 8,
+        "No Vote": 19
+      }
+    },
+    "JEFF SHEEHY": {
+      "RAFAEL MANDELMAN": {
+        "JEFF SHEEHY": 116,
+        "LAWRENCE ''STARK'' DAGESSE": 4120,
+        "RAFAEL MANDELMAN": 47,
+        "No Vote": 2847
+      },
+      "LAWRENCE ''STARK'' DAGESSE": {
+        "JEFF SHEEHY": 7,
+        "LAWRENCE ''STARK'' DAGESSE": 7,
+        "RAFAEL MANDELMAN": 1212,
+        "No Vote": 358
+      },
+      "JEFF SHEEHY": {
+        "JEFF SHEEHY": 458,
+        "LAWRENCE ''STARK'' DAGESSE": 6,
+        "RAFAEL MANDELMAN": 39,
+        "No Vote": 34
+      },
+      "No Vote": {
+        "JEFF SHEEHY": 4,
+        "LAWRENCE ''STARK'' DAGESSE": 7,
+        "RAFAEL MANDELMAN": 21,
+        "No Vote": 3331
+      }
+    },
+    "LAWRENCE ''STARK'' DAGESSE": {
+      "No Vote": {
+        "JEFF SHEEHY": 3,
+        "LAWRENCE ''STARK'' DAGESSE": 1,
+        "RAFAEL MANDELMAN": 3,
+        "No Vote": 86
+      },
+      "LAWRENCE ''STARK'' DAGESSE": {
+        "JEFF SHEEHY": 1,
+        "LAWRENCE ''STARK'' DAGESSE": 26,
+        "RAFAEL MANDELMAN": 4
+      },
+      "RAFAEL MANDELMAN": {
+        "JEFF SHEEHY": 212,
+        "LAWRENCE ''STARK'' DAGESSE": 6,
+        "RAFAEL MANDELMAN": 2,
+        "No Vote": 43
+      },
+      "JEFF SHEEHY": {
+        "JEFF SHEEHY": 3,
+        "LAWRENCE ''STARK'' DAGESSE": 2,
+        "RAFAEL MANDELMAN": 172,
+        "No Vote": 25
+      }
+    },
+    "RAFAEL MANDELMAN": {
+      "No Vote": {
+        "JEFF SHEEHY": 29,
+        "LAWRENCE ''STARK'' DAGESSE": 11,
+        "RAFAEL MANDELMAN": 4,
+        "No Vote": 6049
+      },
+      "JEFF SHEEHY": {
+        "JEFF SHEEHY": 60,
+        "LAWRENCE ''STARK'' DAGESSE": 5502,
+        "RAFAEL MANDELMAN": 149,
+        "No Vote": 5031
+      },
+      "LAWRENCE ''STARK'' DAGESSE": {
+        "JEFF SHEEHY": 1606,
+        "LAWRENCE ''STARK'' DAGESSE": 11,
+        "RAFAEL MANDELMAN": 22,
+        "No Vote": 522
+      },
+      "RAFAEL MANDELMAN": {
+        "JEFF SHEEHY": 70,
+        "LAWRENCE ''STARK'' DAGESSE": 19,
+        "RAFAEL MANDELMAN": 782,
+        "No Vote": 54
+      }
+    }
+  }
+}

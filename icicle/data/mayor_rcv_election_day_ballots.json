@@ -1,0 +1,783 @@
+{
+  "All Votes": {
+    "No Vote": {
+      "No Vote": {
+        "AMY FARAH WEISS": 2,
+        "ANGELA ALIOTO": 12,
+        "ELLEN LEE ZHOU": 3,
+        "JANE KIM": 5,
+        "LONDON BREED": 24,
+        "MARK LENO": 16,
+        "MICHELLE BRAVO": 1,
+        "RICHIE GREENBERG": 2,
+        "No Vote": 602
+      },
+      "LONDON BREED": {
+        "AMY FARAH WEISS": 1,
+        "ANGELA ALIOTO": 8,
+        "JANE KIM": 2,
+        "LONDON BREED": 4,
+        "MARK LENO": 8,
+        "RICHIE GREENBERG": 1,
+        "No Vote": 27
+      },
+      "RICHIE GREENBERG": {
+        "ANGELA ALIOTO": 1,
+        "ELLEN LEE ZHOU": 2,
+        "JANE KIM": 1,
+        "MARK LENO": 1,
+        "No Vote": 1
+      },
+      "JANE KIM": {
+        "ANGELA ALIOTO": 2,
+        "ELLEN LEE ZHOU": 1,
+        "JANE KIM": 1,
+        "LONDON BREED": 5,
+        "MARK LENO": 9,
+        "MICHELLE BRAVO": 1,
+        "RICHIE GREENBERG": 2,
+        "No Vote": 15
+      },
+      "MICHELLE BRAVO": { "MARK LENO": 1, "No Vote": 3 },
+      "ELLEN LEE ZHOU": {
+        "AMY FARAH WEISS": 2,
+        "ELLEN LEE ZHOU": 1,
+        "JANE KIM": 3,
+        "LONDON BREED": 2,
+        "No Vote": 5
+      },
+      "AMY FARAH WEISS": {
+        "ANGELA ALIOTO": 2,
+        "JANE KIM": 1,
+        "MICHELLE BRAVO": 1,
+        "RICHIE GREENBERG": 2,
+        "No Vote": 2
+      },
+      "MARK LENO": {
+        "AMY FARAH WEISS": 8,
+        "ANGELA ALIOTO": 2,
+        "JANE KIM": 9,
+        "LONDON BREED": 7,
+        "RICHIE GREENBERG": 1,
+        "No Vote": 23
+      },
+      "ANGELA ALIOTO": {
+        "AMY FARAH WEISS": 4,
+        "ANGELA ALIOTO": 1,
+        "JANE KIM": 1,
+        "LONDON BREED": 5,
+        "MARK LENO": 5,
+        "MICHELLE BRAVO": 1,
+        "RICHIE GREENBERG": 3,
+        "No Vote": 21
+      }
+    },
+    "LONDON BREED": {
+      "No Vote": {
+        "AMY FARAH WEISS": 5,
+        "ANGELA ALIOTO": 18,
+        "ELLEN LEE ZHOU": 4,
+        "JANE KIM": 18,
+        "LONDON BREED": 3,
+        "MARK LENO": 27,
+        "MICHELLE BRAVO": 4,
+        "RICHIE GREENBERG": 2,
+        "No Vote": 4352
+      },
+      "RICHIE GREENBERG": {
+        "AMY FARAH WEISS": 73,
+        "ANGELA ALIOTO": 177,
+        "ELLEN LEE ZHOU": 63,
+        "JANE KIM": 37,
+        "LONDON BREED": 1,
+        "MARK LENO": 74,
+        "MICHELLE BRAVO": 46,
+        "RICHIE GREENBERG": 6,
+        "No Vote": 78
+      },
+      "LONDON BREED": {
+        "AMY FARAH WEISS": 4,
+        "ANGELA ALIOTO": 32,
+        "ELLEN LEE ZHOU": 5,
+        "JANE KIM": 37,
+        "LONDON BREED": 1085,
+        "MARK LENO": 33,
+        "MICHELLE BRAVO": 7,
+        "RICHIE GREENBERG": 4,
+        "No Vote": 42
+      },
+      "WRITE-IN ANTOINE R. ROGERS": {
+        "ANGELA ALIOTO": 2,
+        "ELLEN LEE ZHOU": 1,
+        "No Vote": 1
+      },
+      "MICHELLE BRAVO": {
+        "AMY FARAH WEISS": 67,
+        "ANGELA ALIOTO": 74,
+        "ELLEN LEE ZHOU": 95,
+        "JANE KIM": 38,
+        "LONDON BREED": 3,
+        "MARK LENO": 27,
+        "MICHELLE BRAVO": 4,
+        "RICHIE GREENBERG": 35,
+        "No Vote": 18
+      },
+      "JANE KIM": {
+        "AMY FARAH WEISS": 258,
+        "ANGELA ALIOTO": 1290,
+        "ELLEN LEE ZHOU": 249,
+        "JANE KIM": 12,
+        "LONDON BREED": 31,
+        "MARK LENO": 3264,
+        "MICHELLE BRAVO": 86,
+        "RICHIE GREENBERG": 83,
+        "No Vote": 732
+      },
+      "ELLEN LEE ZHOU": {
+        "AMY FARAH WEISS": 105,
+        "ANGELA ALIOTO": 199,
+        "ELLEN LEE ZHOU": 11,
+        "JANE KIM": 64,
+        "LONDON BREED": 6,
+        "MARK LENO": 85,
+        "MICHELLE BRAVO": 73,
+        "RICHIE GREENBERG": 55,
+        "No Vote": 62
+      },
+      "AMY FARAH WEISS": {
+        "AMY FARAH WEISS": 3,
+        "ANGELA ALIOTO": 95,
+        "ELLEN LEE ZHOU": 113,
+        "JANE KIM": 85,
+        "LONDON BREED": 1,
+        "MARK LENO": 103,
+        "MICHELLE BRAVO": 70,
+        "RICHIE GREENBERG": 65,
+        "No Vote": 50
+      },
+      "MARK LENO": {
+        "AMY FARAH WEISS": 297,
+        "ANGELA ALIOTO": 1766,
+        "ELLEN LEE ZHOU": 173,
+        "JANE KIM": 3562,
+        "LONDON BREED": 42,
+        "MARK LENO": 13,
+        "MICHELLE BRAVO": 132,
+        "RICHIE GREENBERG": 203,
+        "WRITE-IN ANTOINE R. ROGERS": 2,
+        "No Vote": 1564
+      },
+      "ANGELA ALIOTO": {
+        "AMY FARAH WEISS": 385,
+        "ANGELA ALIOTO": 23,
+        "ELLEN LEE ZHOU": 388,
+        "JANE KIM": 883,
+        "LONDON BREED": 47,
+        "MARK LENO": 1334,
+        "MICHELLE BRAVO": 217,
+        "RICHIE GREENBERG": 442,
+        "No Vote": 896
+      }
+    },
+    "MICHELLE BRAVO": {
+      "AMY FARAH WEISS": {
+        "ANGELA ALIOTO": 3,
+        "ELLEN LEE ZHOU": 3,
+        "JANE KIM": 3,
+        "MARK LENO": 3,
+        "RICHIE GREENBERG": 1
+      },
+      "MARK LENO": {
+        "AMY FARAH WEISS": 1,
+        "ANGELA ALIOTO": 7,
+        "ELLEN LEE ZHOU": 4,
+        "JANE KIM": 8,
+        "LONDON BREED": 5,
+        "MARK LENO": 1,
+        "RICHIE GREENBERG": 5,
+        "No Vote": 1
+      },
+      "ANGELA ALIOTO": {
+        "AMY FARAH WEISS": 4,
+        "ELLEN LEE ZHOU": 9,
+        "JANE KIM": 6,
+        "LONDON BREED": 11,
+        "MARK LENO": 7,
+        "MICHELLE BRAVO": 3,
+        "RICHIE GREENBERG": 5,
+        "No Vote": 4
+      },
+      "ELLEN LEE ZHOU": {
+        "AMY FARAH WEISS": 5,
+        "ANGELA ALIOTO": 7,
+        "JANE KIM": 4,
+        "LONDON BREED": 1,
+        "MARK LENO": 2,
+        "RICHIE GREENBERG": 4
+      },
+      "MICHELLE BRAVO": {
+        "ANGELA ALIOTO": 1,
+        "MICHELLE BRAVO": 11,
+        "No Vote": 1
+      },
+      "JANE KIM": {
+        "AMY FARAH WEISS": 3,
+        "ANGELA ALIOTO": 3,
+        "ELLEN LEE ZHOU": 2,
+        "LONDON BREED": 6,
+        "MARK LENO": 11,
+        "RICHIE GREENBERG": 2,
+        "No Vote": 5
+      },
+      "No Vote": { "ANGELA ALIOTO": 3, "MICHELLE BRAVO": 1, "No Vote": 23 },
+      "RICHIE GREENBERG": {
+        "AMY FARAH WEISS": 2,
+        "ANGELA ALIOTO": 6,
+        "ELLEN LEE ZHOU": 4,
+        "JANE KIM": 1,
+        "LONDON BREED": 3,
+        "MARK LENO": 1
+      },
+      "LONDON BREED": {
+        "AMY FARAH WEISS": 5,
+        "ANGELA ALIOTO": 3,
+        "ELLEN LEE ZHOU": 2,
+        "JANE KIM": 9,
+        "LONDON BREED": 1,
+        "MARK LENO": 10,
+        "MICHELLE BRAVO": 1,
+        "RICHIE GREENBERG": 3,
+        "No Vote": 2
+      }
+    },
+    "MARK LENO": {
+      "AMY FARAH WEISS": {
+        "AMY FARAH WEISS": 3,
+        "ANGELA ALIOTO": 35,
+        "ELLEN LEE ZHOU": 28,
+        "JANE KIM": 134,
+        "LONDON BREED": 54,
+        "MARK LENO": 1,
+        "MICHELLE BRAVO": 25,
+        "RICHIE GREENBERG": 25,
+        "No Vote": 24
+      },
+      "ANGELA ALIOTO": {
+        "AMY FARAH WEISS": 106,
+        "ANGELA ALIOTO": 15,
+        "ELLEN LEE ZHOU": 70,
+        "JANE KIM": 540,
+        "LONDON BREED": 496,
+        "MARK LENO": 17,
+        "MICHELLE BRAVO": 111,
+        "RICHIE GREENBERG": 104,
+        "No Vote": 205
+      },
+      "MARK LENO": {
+        "AMY FARAH WEISS": 2,
+        "ANGELA ALIOTO": 9,
+        "ELLEN LEE ZHOU": 2,
+        "JANE KIM": 21,
+        "LONDON BREED": 18,
+        "MARK LENO": 249,
+        "MICHELLE BRAVO": 1,
+        "No Vote": 19
+      },
+      "ELLEN LEE ZHOU": {
+        "AMY FARAH WEISS": 30,
+        "ANGELA ALIOTO": 32,
+        "ELLEN LEE ZHOU": 2,
+        "JANE KIM": 31,
+        "LONDON BREED": 41,
+        "MARK LENO": 1,
+        "MICHELLE BRAVO": 15,
+        "RICHIE GREENBERG": 18,
+        "No Vote": 8
+      },
+      "MICHELLE BRAVO": {
+        "AMY FARAH WEISS": 21,
+        "ANGELA ALIOTO": 19,
+        "ELLEN LEE ZHOU": 19,
+        "JANE KIM": 13,
+        "LONDON BREED": 10,
+        "MARK LENO": 3,
+        "MICHELLE BRAVO": 1,
+        "RICHIE GREENBERG": 13,
+        "No Vote": 1
+      },
+      "JANE KIM": {
+        "AMY FARAH WEISS": 1805,
+        "ANGELA ALIOTO": 2069,
+        "ELLEN LEE ZHOU": 285,
+        "JANE KIM": 17,
+        "LONDON BREED": 3481,
+        "MARK LENO": 75,
+        "MICHELLE BRAVO": 178,
+        "RICHIE GREENBERG": 161,
+        "WRITE-IN ANTOINE R. ROGERS": 3,
+        "No Vote": 2314
+      },
+      "No Vote": {
+        "ANGELA ALIOTO": 5,
+        "ELLEN LEE ZHOU": 1,
+        "JANE KIM": 10,
+        "LONDON BREED": 13,
+        "MARK LENO": 3,
+        "MICHELLE BRAVO": 3,
+        "No Vote": 1058
+      },
+      "LONDON BREED": {
+        "AMY FARAH WEISS": 158,
+        "ANGELA ALIOTO": 878,
+        "ELLEN LEE ZHOU": 114,
+        "JANE KIM": 2246,
+        "LONDON BREED": 19,
+        "MARK LENO": 27,
+        "MICHELLE BRAVO": 53,
+        "RICHIE GREENBERG": 85,
+        "No Vote": 816
+      },
+      "RICHIE GREENBERG": {
+        "AMY FARAH WEISS": 48,
+        "ANGELA ALIOTO": 47,
+        "ELLEN LEE ZHOU": 13,
+        "JANE KIM": 39,
+        "LONDON BREED": 41,
+        "MARK LENO": 2,
+        "MICHELLE BRAVO": 26,
+        "RICHIE GREENBERG": 2,
+        "No Vote": 33
+      }
+    },
+    "ANGELA ALIOTO": {
+      "ANGELA ALIOTO": {
+        "AMY FARAH WEISS": 1,
+        "ANGELA ALIOTO": 240,
+        "JANE KIM": 3,
+        "LONDON BREED": 7,
+        "MARK LENO": 10,
+        "RICHIE GREENBERG": 10,
+        "No Vote": 12
+      },
+      "MARK LENO": {
+        "AMY FARAH WEISS": 62,
+        "ANGELA ALIOTO": 12,
+        "ELLEN LEE ZHOU": 44,
+        "JANE KIM": 353,
+        "LONDON BREED": 341,
+        "MARK LENO": 5,
+        "MICHELLE BRAVO": 58,
+        "RICHIE GREENBERG": 123,
+        "No Vote": 135
+      },
+      "AMY FARAH WEISS": {
+        "ELLEN LEE ZHOU": 42,
+        "JANE KIM": 16,
+        "LONDON BREED": 26,
+        "MARK LENO": 10,
+        "MICHELLE BRAVO": 25,
+        "RICHIE GREENBERG": 29,
+        "No Vote": 8
+      },
+      "ELLEN LEE ZHOU": {
+        "AMY FARAH WEISS": 34,
+        "ANGELA ALIOTO": 4,
+        "ELLEN LEE ZHOU": 3,
+        "JANE KIM": 33,
+        "LONDON BREED": 53,
+        "MARK LENO": 28,
+        "MICHELLE BRAVO": 33,
+        "RICHIE GREENBERG": 47,
+        "No Vote": 15
+      },
+      "MICHELLE BRAVO": {
+        "AMY FARAH WEISS": 28,
+        "ANGELA ALIOTO": 1,
+        "ELLEN LEE ZHOU": 34,
+        "JANE KIM": 17,
+        "LONDON BREED": 15,
+        "MARK LENO": 26,
+        "MICHELLE BRAVO": 3,
+        "RICHIE GREENBERG": 29,
+        "No Vote": 13
+      },
+      "JANE KIM": {
+        "AMY FARAH WEISS": 34,
+        "ANGELA ALIOTO": 9,
+        "ELLEN LEE ZHOU": 48,
+        "JANE KIM": 5,
+        "LONDON BREED": 214,
+        "MARK LENO": 248,
+        "MICHELLE BRAVO": 29,
+        "RICHIE GREENBERG": 31,
+        "No Vote": 38
+      },
+      "RICHIE GREENBERG": {
+        "AMY FARAH WEISS": 76,
+        "ANGELA ALIOTO": 8,
+        "ELLEN LEE ZHOU": 50,
+        "JANE KIM": 31,
+        "LONDON BREED": 78,
+        "MARK LENO": 72,
+        "MICHELLE BRAVO": 52,
+        "RICHIE GREENBERG": 2,
+        "No Vote": 66
+      },
+      "LONDON BREED": {
+        "AMY FARAH WEISS": 68,
+        "ANGELA ALIOTO": 21,
+        "ELLEN LEE ZHOU": 92,
+        "JANE KIM": 287,
+        "LONDON BREED": 17,
+        "MARK LENO": 450,
+        "MICHELLE BRAVO": 48,
+        "RICHIE GREENBERG": 148,
+        "No Vote": 249
+      },
+      "No Vote": {
+        "AMY FARAH WEISS": 1,
+        "ANGELA ALIOTO": 4,
+        "ELLEN LEE ZHOU": 2,
+        "JANE KIM": 2,
+        "LONDON BREED": 6,
+        "MARK LENO": 6,
+        "MICHELLE BRAVO": 3,
+        "No Vote": 660
+      }
+    },
+    "AMY FARAH WEISS": {
+      "MARK LENO": {
+        "ANGELA ALIOTO": 6,
+        "ELLEN LEE ZHOU": 2,
+        "JANE KIM": 57,
+        "LONDON BREED": 16,
+        "RICHIE GREENBERG": 5,
+        "No Vote": 6
+      },
+      "ANGELA ALIOTO": {
+        "ANGELA ALIOTO": 1,
+        "ELLEN LEE ZHOU": 11,
+        "JANE KIM": 9,
+        "LONDON BREED": 14,
+        "MARK LENO": 11,
+        "MICHELLE BRAVO": 4,
+        "RICHIE GREENBERG": 2,
+        "No Vote": 4
+      },
+      "AMY FARAH WEISS": { "AMY FARAH WEISS": 13 },
+      "ELLEN LEE ZHOU": {
+        "AMY FARAH WEISS": 1,
+        "ANGELA ALIOTO": 5,
+        "JANE KIM": 3,
+        "LONDON BREED": 4,
+        "MARK LENO": 1,
+        "MICHELLE BRAVO": 6,
+        "RICHIE GREENBERG": 6
+      },
+      "JANE KIM": {
+        "ANGELA ALIOTO": 15,
+        "ELLEN LEE ZHOU": 6,
+        "LONDON BREED": 24,
+        "MARK LENO": 143,
+        "No Vote": 5
+      },
+      "MICHELLE BRAVO": {
+        "AMY FARAH WEISS": 1,
+        "ELLEN LEE ZHOU": 4,
+        "JANE KIM": 4,
+        "LONDON BREED": 1,
+        "MARK LENO": 2,
+        "RICHIE GREENBERG": 3,
+        "No Vote": 3
+      },
+      "LONDON BREED": {
+        "ANGELA ALIOTO": 8,
+        "ELLEN LEE ZHOU": 5,
+        "JANE KIM": 18,
+        "MARK LENO": 23,
+        "MICHELLE BRAVO": 2,
+        "RICHIE GREENBERG": 4,
+        "No Vote": 3
+      },
+      "RICHIE GREENBERG": {
+        "ANGELA ALIOTO": 4,
+        "ELLEN LEE ZHOU": 2,
+        "JANE KIM": 4,
+        "LONDON BREED": 5,
+        "MARK LENO": 6,
+        "MICHELLE BRAVO": 1
+      },
+      "No Vote": { "LONDON BREED": 1, "MICHELLE BRAVO": 1, "No Vote": 22 }
+    },
+    "ELLEN LEE ZHOU": {
+      "RICHIE GREENBERG": {
+        "AMY FARAH WEISS": 18,
+        "ANGELA ALIOTO": 45,
+        "JANE KIM": 12,
+        "LONDON BREED": 32,
+        "MARK LENO": 12,
+        "MICHELLE BRAVO": 9,
+        "No Vote": 11
+      },
+      "LONDON BREED": {
+        "AMY FARAH WEISS": 14,
+        "ANGELA ALIOTO": 125,
+        "ELLEN LEE ZHOU": 5,
+        "JANE KIM": 44,
+        "LONDON BREED": 2,
+        "MARK LENO": 66,
+        "MICHELLE BRAVO": 12,
+        "RICHIE GREENBERG": 18,
+        "No Vote": 36
+      },
+      "No Vote": {
+        "AMY FARAH WEISS": 1,
+        "JANE KIM": 1,
+        "LONDON BREED": 2,
+        "MARK LENO": 2,
+        "No Vote": 154
+      },
+      "MICHELLE BRAVO": {
+        "AMY FARAH WEISS": 9,
+        "ANGELA ALIOTO": 8,
+        "JANE KIM": 3,
+        "LONDON BREED": 3,
+        "MARK LENO": 2,
+        "RICHIE GREENBERG": 3,
+        "No Vote": 4
+      },
+      "JANE KIM": {
+        "AMY FARAH WEISS": 11,
+        "ANGELA ALIOTO": 23,
+        "ELLEN LEE ZHOU": 2,
+        "LONDON BREED": 57,
+        "MARK LENO": 53,
+        "MICHELLE BRAVO": 6,
+        "RICHIE GREENBERG": 10,
+        "No Vote": 10
+      },
+      "ELLEN LEE ZHOU": {
+        "AMY FARAH WEISS": 1,
+        "ELLEN LEE ZHOU": 71,
+        "JANE KIM": 1,
+        "LONDON BREED": 3,
+        "MARK LENO": 1,
+        "MICHELLE BRAVO": 1,
+        "RICHIE GREENBERG": 1,
+        "No Vote": 4
+      },
+      "ANGELA ALIOTO": {
+        "AMY FARAH WEISS": 20,
+        "ELLEN LEE ZHOU": 5,
+        "JANE KIM": 17,
+        "LONDON BREED": 100,
+        "MARK LENO": 28,
+        "MICHELLE BRAVO": 15,
+        "RICHIE GREENBERG": 83,
+        "No Vote": 36
+      },
+      "MARK LENO": {
+        "AMY FARAH WEISS": 8,
+        "ANGELA ALIOTO": 27,
+        "ELLEN LEE ZHOU": 2,
+        "JANE KIM": 39,
+        "LONDON BREED": 39,
+        "MARK LENO": 1,
+        "MICHELLE BRAVO": 8,
+        "RICHIE GREENBERG": 15,
+        "No Vote": 17
+      },
+      "AMY FARAH WEISS": {
+        "ANGELA ALIOTO": 5,
+        "JANE KIM": 4,
+        "LONDON BREED": 4,
+        "MARK LENO": 5,
+        "MICHELLE BRAVO": 7,
+        "RICHIE GREENBERG": 11,
+        "No Vote": 3
+      }
+    },
+    "JANE KIM": {
+      "ELLEN LEE ZHOU": {
+        "AMY FARAH WEISS": 43,
+        "ANGELA ALIOTO": 72,
+        "ELLEN LEE ZHOU": 2,
+        "JANE KIM": 4,
+        "LONDON BREED": 78,
+        "MARK LENO": 49,
+        "MICHELLE BRAVO": 24,
+        "RICHIE GREENBERG": 6,
+        "No Vote": 27
+      },
+      "AMY FARAH WEISS": {
+        "ANGELA ALIOTO": 45,
+        "ELLEN LEE ZHOU": 26,
+        "JANE KIM": 1,
+        "LONDON BREED": 65,
+        "MARK LENO": 389,
+        "MICHELLE BRAVO": 21,
+        "RICHIE GREENBERG": 5,
+        "No Vote": 24
+      },
+      "MARK LENO": {
+        "AMY FARAH WEISS": 6177,
+        "ANGELA ALIOTO": 1752,
+        "ELLEN LEE ZHOU": 454,
+        "JANE KIM": 62,
+        "LONDON BREED": 3609,
+        "MARK LENO": 9,
+        "MICHELLE BRAVO": 203,
+        "RICHIE GREENBERG": 101,
+        "No Vote": 2447
+      },
+      "ANGELA ALIOTO": {
+        "AMY FARAH WEISS": 87,
+        "ANGELA ALIOTO": 3,
+        "ELLEN LEE ZHOU": 107,
+        "JANE KIM": 6,
+        "LONDON BREED": 260,
+        "MARK LENO": 298,
+        "MICHELLE BRAVO": 25,
+        "RICHIE GREENBERG": 29,
+        "No Vote": 94
+      },
+      "No Vote": {
+        "AMY FARAH WEISS": 3,
+        "ANGELA ALIOTO": 5,
+        "ELLEN LEE ZHOU": 1,
+        "JANE KIM": 4,
+        "LONDON BREED": 8,
+        "MARK LENO": 8,
+        "No Vote": 558
+      },
+      "RICHIE GREENBERG": {
+        "AMY FARAH WEISS": 15,
+        "ANGELA ALIOTO": 16,
+        "ELLEN LEE ZHOU": 10,
+        "LONDON BREED": 21,
+        "MARK LENO": 16,
+        "MICHELLE BRAVO": 3,
+        "No Vote": 4
+      },
+      "LONDON BREED": {
+        "AMY FARAH WEISS": 137,
+        "ANGELA ALIOTO": 564,
+        "ELLEN LEE ZHOU": 145,
+        "JANE KIM": 12,
+        "LONDON BREED": 10,
+        "MARK LENO": 1812,
+        "MICHELLE BRAVO": 52,
+        "RICHIE GREENBERG": 39,
+        "No Vote": 355
+      },
+      "JANE KIM": {
+        "ANGELA ALIOTO": 6,
+        "ELLEN LEE ZHOU": 3,
+        "JANE KIM": 148,
+        "LONDON BREED": 9,
+        "MARK LENO": 20,
+        "MICHELLE BRAVO": 2,
+        "RICHIE GREENBERG": 1,
+        "No Vote": 14
+      },
+      "MICHELLE BRAVO": {
+        "AMY FARAH WEISS": 14,
+        "ANGELA ALIOTO": 14,
+        "ELLEN LEE ZHOU": 14,
+        "JANE KIM": 2,
+        "LONDON BREED": 12,
+        "MARK LENO": 10,
+        "MICHELLE BRAVO": 2,
+        "RICHIE GREENBERG": 3,
+        "No Vote": 4
+      }
+    },
+    "RICHIE GREENBERG": {
+      "No Vote": {
+        "ANGELA ALIOTO": 2,
+        "ELLEN LEE ZHOU": 1,
+        "LONDON BREED": 3,
+        "No Vote": 334
+      },
+      "RICHIE GREENBERG": {
+        "ANGELA ALIOTO": 2,
+        "ELLEN LEE ZHOU": 3,
+        "JANE KIM": 2,
+        "LONDON BREED": 3,
+        "MARK LENO": 1,
+        "RICHIE GREENBERG": 92,
+        "No Vote": 2
+      },
+      "LONDON BREED": {
+        "AMY FARAH WEISS": 8,
+        "ANGELA ALIOTO": 89,
+        "ELLEN LEE ZHOU": 17,
+        "JANE KIM": 22,
+        "MARK LENO": 52,
+        "MICHELLE BRAVO": 11,
+        "RICHIE GREENBERG": 1,
+        "No Vote": 43
+      },
+      "MICHELLE BRAVO": {
+        "AMY FARAH WEISS": 14,
+        "ANGELA ALIOTO": 4,
+        "ELLEN LEE ZHOU": 12,
+        "JANE KIM": 7,
+        "LONDON BREED": 4,
+        "MARK LENO": 6,
+        "No Vote": 11
+      },
+      "JANE KIM": {
+        "AMY FARAH WEISS": 5,
+        "ANGELA ALIOTO": 20,
+        "ELLEN LEE ZHOU": 6,
+        "JANE KIM": 2,
+        "LONDON BREED": 15,
+        "MARK LENO": 24,
+        "MICHELLE BRAVO": 4,
+        "RICHIE GREENBERG": 1,
+        "No Vote": 11
+      },
+      "ELLEN LEE ZHOU": {
+        "AMY FARAH WEISS": 21,
+        "ANGELA ALIOTO": 41,
+        "JANE KIM": 8,
+        "LONDON BREED": 19,
+        "MARK LENO": 11,
+        "MICHELLE BRAVO": 11,
+        "RICHIE GREENBERG": 2,
+        "No Vote": 19
+      },
+      "AMY FARAH WEISS": {
+        "ANGELA ALIOTO": 14,
+        "ELLEN LEE ZHOU": 17,
+        "JANE KIM": 4,
+        "LONDON BREED": 8,
+        "MARK LENO": 11,
+        "MICHELLE BRAVO": 17,
+        "RICHIE GREENBERG": 1,
+        "No Vote": 6
+      },
+      "MARK LENO": {
+        "AMY FARAH WEISS": 17,
+        "ANGELA ALIOTO": 47,
+        "ELLEN LEE ZHOU": 9,
+        "JANE KIM": 31,
+        "LONDON BREED": 42,
+        "MICHELLE BRAVO": 19,
+        "No Vote": 22
+      },
+      "ANGELA ALIOTO": {
+        "AMY FARAH WEISS": 36,
+        "ANGELA ALIOTO": 3,
+        "ELLEN LEE ZHOU": 41,
+        "JANE KIM": 45,
+        "LONDON BREED": 110,
+        "MARK LENO": 69,
+        "MICHELLE BRAVO": 33,
+        "RICHIE GREENBERG": 6,
+        "No Vote": 108
+      }
+    }
+  }
+}

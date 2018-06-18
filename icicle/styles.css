@@ -1,0 +1,12 @@
+rect {
+  stroke: #fff;
+}
+
+.label {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.hidden {
+  display: none;
+}

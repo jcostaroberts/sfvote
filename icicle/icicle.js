@@ -1,5 +1,5 @@
 //stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
-https: String.prototype.toProperCase = function() {
+String.prototype.toProperCase = function() {
   return this.replace(/\w\S*/g, function(txt) {
     return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
   });
@@ -32,10 +32,11 @@ var svg = d3
 var rect = svg.selectAll("rect");
 var labels = svg.selectAll(".label");
 
-d3.json("candidates.json", function(error, root) {
+d3.json(dataPath, function(error, root) {
   if (error) throw error;
 
-  let nodes = partition(d3.entries(root)[0]);
+  let entries = d3.entries(root)[0];
+  let nodes = partition(entries);
 
   rect = rect
     .data(nodes)
@@ -104,10 +105,6 @@ function clicked(d) {
     .attr("height", function(d) {
       return y(d.y + d.dy) - y(d.y);
     });
-
-  rect.append("svg:title").text(function(d) {
-    return `${d.value.toLocaleString()} votes`;
-  });
 
   labels
     .classed("label", true)
