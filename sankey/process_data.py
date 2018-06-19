@@ -94,7 +94,7 @@ def compute_graph(data):
     return nodes, edges
 
 if __name__ == "__main__":
-    data = util.csv_to_list("../data/20180605_rcv_mayor.csv")
+    data = util.csv_to_list(util.data_filename("20180605_rcv_mayor.csv"))
     nodes, edges = compute_graph(data)
-    util.csv_from_list(nodes, ["id", "name", "weight"], "../data/rcv_nodes.csv")
-    util.csv_from_list(edges, ["source", "target", "weight"], "../data/rcv_edges.csv")
+    util.csv_from_list(nodes, ["id", "name", "weight"], util.data_filename("rcv_nodes.csv"))
+    util.csv_from_list(edges, ["source", "target", "weight"], util.data_filename("rcv_edges.csv"))
