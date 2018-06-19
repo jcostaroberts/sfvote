@@ -3,12 +3,12 @@ library(RColorBrewer)
 library(here)
 library(classInt)
 
-dn <- "GDrive/Sync/Projects/sfturnout/2014"
+dn <- "GDrive/Sync/Projects/sfvote"
 
-districts <- readOGR(here(dn, "2017lines"),
+districts <- readOGR(here(dn, "data/2017lines"),
                      layer="SF_BOS_20120702_nowater")
 
-turnout <- read.csv(here(dn, "2014-11_turnout_by_district.csv"))
+turnout <- read.csv(here(dn, "turnoutsmaps/2014-11_turnout_by_district.csv"))
 turnout$Pct_Voted <- turnout$Voted/turnout$Registered
 turnout$BOS_District <- as.factor(sprintf("%02d", turnout$BOS_District))
 
