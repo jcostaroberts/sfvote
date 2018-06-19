@@ -10,6 +10,14 @@ def db_run_script(cursor, script):
 def db_get_list(cursor):
     return cursor.fetchall()
 
+def csv_to_list(filename):
+    data = []
+    with open(filename, "r") as f:
+        r = csv.reader(f, delimiter=",")
+        for row in r:
+            data.append(row)
+    return data
+
 def csv_from_list(data, header, filename):
     with open(filename, "w") as f:
         w = csv.writer(f, delimiter=",")
