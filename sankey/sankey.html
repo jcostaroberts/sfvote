@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- from https://bl.ocks.org/wiesson/87c7714081e1b1f24e5b36b4335b09c2, with tweaks -->
+<svg width="960" height="500"></svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://unpkg.com/d3-sankey@0.7.1"></script>
+<!-- <script src="d3-sankey.js"></script>-->
+<script>
+    const getColor = d => d.color = color(d.name.replace(/ .*/, ""));
+
+    const svg = d3.select("svg"),
+        width = +svg.attr("width"),
+        height = +svg.attr("height");
+
+    const formatNumber = d3.format(",.0f");
+    const format = d => `${formatNumber(d)} votes`;
+    const color = d3.scaleOrdinal(d3.schemeCategory10);
+
+    const sankey = d3.sankey()
+        .nodeWidth(15)
+        .nodePadding(10)
+        .nodeAlign(function(nd, n) {return nd.round;})
+        .iterations(1)
+        .extent([[1, 1], [width - 1, height - 6]]);
+
+    let link = svg.append("g")
+        .attr("class", "links")
+        .attr("fill", "none")
+        .attr("stroke", "#000")
+        .attr("stroke-opacity", 0.4)
+        .selectAll("path");
+
+    let node = svg.append("g")
+        .attr("class", "nodes")
+        .attr("font-family", "sans-serif")
+        .attr("font-size", 10)
+        .selectAll("g");
+    
+    d3.json("rcv_graph.json", function (error, graph) {
+        if (error) throw error;
+        sankey(graph);
+
+        const defs = svg.append('defs');
+
+        link = link
+            .data(graph.links)
+            .enter().append("path")
+            .attr("d", d3.sankeyLinkHorizontal())
+            .attr("stroke-width", d => Math.max(1, d.width));
+
+        link.append("title")
+            .text(d => `${d.source.name} -> ${d.target.name} \n ${format(d.value)}`)
+
+        node = node
+            .data(graph.nodes)
+            .enter().append("g")
+
+        node.append("rect")
+            .attr("x", d => d.x0)
+            .attr("y", d => d.y0)
+            .attr("height", d => d.y1 - d.y0)
+            .attr("width", d => d.x1 - d.x0)
+            .attr("fill", d => getColor(d))
+            .attr("stroke-width", 0);
+
+        // Add candidate names just before node in which eliminated
+        node.append("text")
+            .attr("x", d => d.x0 - 6)
+            .attr("y", d => (d.y1 + d.y0) / 2)
+            .attr("dy", "0.35em")
+            .style("font-weight", "bold")
+            .attr("text-anchor", "end")
+            .text(d => ((d.status == "eliminated" || d.status == "final") ? d.name : "").replace("WRITE-IN ", ""))
+            //.filter(d => d.x0 < width / 2)
+            //.attr("x", d => d.x1 + 6)
+            //.attr("text-anchor", "start");
+
+        // Labels rounds at the bottom
+        node.append("text")
+            .attr("x", d => d.x0)
+            .attr("y", d => height - 6)
+            .attr("dy", "0.35em")
+            .style("font-weight", "bold")
+            .text(d => `R${d.round}`)
+            .attr("text-anchor", "start")
+
+        node.append("title")
+            .text(d => `${d.name} \n ${format(d.value)}`)
+
+        link.style('stroke', (d, i) => {
+            console.log('d from gradient stroke func', d);
+
+            // make unique gradient ids
+            const gradientId = `gradient${i}`;
+
+            const startColor = d.source.color;
+            const stopColor = d.target.color;
+
+            // console.log('startColor', startColor);
+            // console.log('stopColor', stopColor);
+
+            const linearGradient = defs.append('linearGradient')
+                .attr('id', gradientId);
+
+            linearGradient.selectAll('stop')
+                .data([
+                    { offset: '20%', color: startColor },
+                    { offset: '80%', color: stopColor }
+                ])
+                .enter().append('stop')
+                .attr('offset', d => d.offset)
+                .attr('stop-color', d => d.color);
+
+            return `url(#${gradientId})`;
+        })
+    });
+</script>

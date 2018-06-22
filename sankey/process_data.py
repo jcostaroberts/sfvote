@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import math
 import re
 import util
 
@@ -38,16 +39,29 @@ def id_node(candidate_node):
 def name_node(candidate_node):
     return candidate_node[1]
 
+def value_node(candidate_node):
+    return candidate_node[2]
+
 node_id = 0
-def add_node(nodes, label, weight):
+def add_node(nodes, label, weight, round, status):
     global node_id
-    node = [node_id, label, weight]
+    node = [node_id, label, weight, round, status]
     nodes.append(node)
     node_id += 1
     return node
 
 def add_edge(edges, sourcenode, targetnode, weight):
     edges.append([id_node(sourcenode), id_node(targetnode), weight])
+
+def eliminated(candidate):
+    return votes_row(candidate) == 0 or transfer_row(candidate) < 0
+
+def get_status(candidate, round, nrounds):
+    if eliminated(candidate):
+        return "eliminated"
+    elif round == (nrounds - 1):
+        return "final"
+    return "continuing"
 
 def compute_graph(data):
     rounds = split_data_into_rounds(data)
@@ -59,15 +73,19 @@ def compute_graph(data):
     remaining_candidates = list(set([name_row(x) for x in rounds[0]]))
     last_eliminated = None # Last node of the most recently eliminated candidate
     last_round_transfer = {} # Candidate-wise list of last round's transfers
+    last_node = {} # Each candidate's previous-round node
 
-    for round in rounds:
+    for r in range(len(rounds)):
+        round = rounds[r]
         next_round_transfer = {}
         for candidate in round:
             # Skip irrelevant candidates
             if name_row(candidate) not in remaining_candidates:
                 continue
+
             # Add candidate node for this round
-            cn = add_node(nodes, name_row(candidate), votes_row(candidate))
+            status = get_status(candidate, r, len(rounds))
+            cn = add_node(nodes, name_row(candidate), votes_row(candidate), r, status)
 
             # If the candidate got transfers this round, record them for next round
             if transfer_row(candidate):
@@ -78,11 +96,18 @@ def compute_graph(data):
             if last_eliminated:
                 tf = last_round_transfer.get(name_row(candidate))
                 if tf:
-                    add_edge(edges, last_eliminated, cn, tf)
+                    add_edge(edges, last_eliminated, cn, math.fabs(tf))
 
             # If candidate got no votes or is listed with negative transfers, eliminate.
-            if votes_row(candidate) == 0 or transfer_row(candidate) < 0:
+            if eliminated(candidate):
                 next_eliminated = cn
+            # Create an edge from candidate's last-round node to the current round node.
+            mr = last_node.get(name_row(candidate))
+            if mr:
+                add_edge(edges, mr, cn, value_node(mr))
+
+            # Update last node to this node
+            last_node[name_row(candidate)] = cn
 
         # Update most recently eliminated node
         last_eliminated = next_eliminated
@@ -96,5 +121,13 @@ def compute_graph(data):
 if __name__ == "__main__":
     data = util.csv_to_list(util.data_filename("20180605_rcv_mayor.csv"))
     nodes, edges = compute_graph(data)
-    util.csv_from_list(nodes, ["id", "name", "weight"], util.data_filename("rcv_nodes.csv"))
-    util.csv_from_list(edges, ["source", "target", "weight"], util.data_filename("rcv_edges.csv"))
+    util.csv_from_list(nodes, ["id", "name", "value", "round"], util.data_filename("rcv_nodes.csv"))
+    util.csv_from_list(edges, ["source", "target", "value"], util.data_filename("rcv_edges.csv"))
+    util.json_from_lists([nodes, edges],
+                         ["nodes", "links"],
+                         [["id", "name", "value", "round", "status"], ["source", "target", "value"]],
+                         util.data_filename("rcv_graph.json"))
+    #util.json_from_lists([[["%s-%d" %(n[1],n[3]), n[3]] for n in nodes], edges],
+    #                     ["nodes", "links"],
+    #                     [["name", "round"], ["source", "target", "value"]],
+    #                     util.data_filename("rcv_graph.json"))

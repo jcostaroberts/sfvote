@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import csv
+import json
 import sqlite3
 
 def db_run_script(cursor, script):
@@ -23,6 +24,12 @@ def csv_from_list(data, header, filename):
         w = csv.writer(f, delimiter=",")
         w.writerow(header)
         w.writerows(data)
+
+def json_from_lists(datalist, datasetnames, headerlist, filename):
+    with open(filename, "w") as f:
+        json.dump({dsname: [dict(zip(header, x)) for x in data] for (dsname, header, data) in \
+                  zip(datasetnames, headerlist, datalist)},
+                  f, sort_keys=True, indent=2)
 
 # General-purpose processing function: apply a SQL script to some db, convert to
 # a python list, apply some python processing logic, and then write to a csv.
