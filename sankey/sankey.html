@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <!-- from https://bl.ocks.org/wiesson/87c7714081e1b1f24e5b36b4335b09c2, with tweaks -->
+<style>
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+</style>
+<h1>2018 San Francisco Mayoral Election Instant Runoff Results</h1>
 <svg width="960" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://unpkg.com/d3-sankey@0.7.1"></script>
@@ -69,7 +77,7 @@
             .attr("dy", "0.35em")
             .style("font-weight", "bold")
             .attr("text-anchor", "end")
-            .text(d => ((d.status == "eliminated" || d.status == "final") ? d.name : "").replace("WRITE-IN ", ""))
+            .text(d => ((d.status == "eliminated" || d.status == "final") ? d.name.toLowerCase() : "").replace("write-in ", ""))
             //.filter(d => d.x0 < width / 2)
             //.attr("x", d => d.x1 + 6)
             //.attr("text-anchor", "start");
@@ -87,7 +95,7 @@
             .text(d => `${d.name} \n ${format(d.value)}`)
 
         link.style('stroke', (d, i) => {
-            console.log('d from gradient stroke func', d);
+            // console.log('d from gradient stroke func', d);
 
             // make unique gradient ids
             const gradientId = `gradient${i}`;
