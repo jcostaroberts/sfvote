@@ -160,3 +160,7 @@ function drawSvgLegend(root) {
 function formatName(name) {
   return !!name ? name.toLowerCase() : "no vote";
 }
+
+// based on
+// https://bl.ocks.org/kerryrodden/766f8f6d31f645c39f488a0befa1e3c8
+//
