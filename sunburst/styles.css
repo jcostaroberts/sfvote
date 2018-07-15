@@ -26,6 +26,10 @@ h1 {
   text-transform: capitalize;
 }
 
+#results-explanation {
+  width: 100px;
+  left: 300px;
+}
 .explanation {
   /* border: 1px solid green; */
   position: absolute;
@@ -52,6 +56,7 @@ h1 {
   padding: 0;
   padding-left: 10px;
   display: inline-block;
+  width: 100%;
 }
 
 .choice {
