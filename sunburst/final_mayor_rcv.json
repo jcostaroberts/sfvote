@@ -1,0 +1,1188 @@
+{
+  "name": "Total Votes",
+  "children": [
+    {
+      "name": null,
+      "children": [
+        {
+          "name": null,
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 5 },
+            { "name": "ANGELA ALIOTO", "votes": 32 },
+            { "name": "ELLEN LEE ZHOU", "votes": 16 },
+            { "name": "JANE KIM", "votes": 21 },
+            { "name": "LONDON BREED", "votes": 64 },
+            { "name": "MARK LENO", "votes": 29 },
+            { "name": "MICHELLE BRAVO", "votes": 3 },
+            { "name": "RICHIE GREENBERG", "votes": 11 },
+            { "name": null, "votes": 2618 }
+          ]
+        },
+        {
+          "name": "LONDON BREED",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 3 },
+            { "name": "ANGELA ALIOTO", "votes": 33 },
+            { "name": "ELLEN LEE ZHOU", "votes": 4 },
+            { "name": "JANE KIM", "votes": 16 },
+            { "name": "LONDON BREED", "votes": 21 },
+            { "name": "MARK LENO", "votes": 37 },
+            { "name": "RICHIE GREENBERG", "votes": 10 },
+            { "name": null, "votes": 91 }
+          ]
+        },
+        {
+          "name": "MICHELLE BRAVO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 2 },
+            { "name": "ANGELA ALIOTO", "votes": 1 },
+            { "name": "MARK LENO", "votes": 2 },
+            { "name": "MICHELLE BRAVO", "votes": 1 },
+            { "name": null, "votes": 5 }
+          ]
+        },
+        {
+          "name": "MARK LENO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 16 },
+            { "name": "ANGELA ALIOTO", "votes": 13 },
+            { "name": "JANE KIM", "votes": 50 },
+            { "name": "LONDON BREED", "votes": 43 },
+            { "name": "MARK LENO", "votes": 11 },
+            { "name": "RICHIE GREENBERG", "votes": 3 },
+            { "name": null, "votes": 74 }
+          ]
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 5 },
+            { "name": "ANGELA ALIOTO", "votes": 6 },
+            { "name": "ELLEN LEE ZHOU", "votes": 5 },
+            { "name": "JANE KIM", "votes": 9 },
+            { "name": "LONDON BREED", "votes": 13 },
+            { "name": "MARK LENO", "votes": 17 },
+            { "name": "MICHELLE BRAVO", "votes": 5 },
+            { "name": "RICHIE GREENBERG", "votes": 10 },
+            { "name": null, "votes": 51 }
+          ]
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 1 },
+            { "name": "ANGELA ALIOTO", "votes": 4 },
+            { "name": "ELLEN LEE ZHOU", "votes": 1 },
+            { "name": "JANE KIM", "votes": 1 },
+            { "name": "MARK LENO", "votes": 1 },
+            { "name": "MICHELLE BRAVO", "votes": 1 },
+            { "name": "RICHIE GREENBERG", "votes": 4 },
+            { "name": null, "votes": 4 }
+          ]
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 2 },
+            { "name": "ANGELA ALIOTO", "votes": 3 },
+            { "name": "ELLEN LEE ZHOU", "votes": 6 },
+            { "name": "JANE KIM", "votes": 4 },
+            { "name": "LONDON BREED", "votes": 8 },
+            { "name": "MARK LENO", "votes": 1 },
+            { "name": "MICHELLE BRAVO", "votes": 5 },
+            { "name": "RICHIE GREENBERG", "votes": 4 },
+            { "name": null, "votes": 27 }
+          ]
+        },
+        {
+          "name": "JANE KIM",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 8 },
+            { "name": "ANGELA ALIOTO", "votes": 21 },
+            { "name": "ELLEN LEE ZHOU", "votes": 5 },
+            { "name": "JANE KIM", "votes": 10 },
+            { "name": "LONDON BREED", "votes": 24 },
+            { "name": "MARK LENO", "votes": 45 },
+            { "name": "MICHELLE BRAVO", "votes": 2 },
+            { "name": "RICHIE GREENBERG", "votes": 4 },
+            { "name": null, "votes": 53 }
+          ]
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "children": [
+            { "name": "ANGELA ALIOTO", "votes": 8 },
+            { "name": "ELLEN LEE ZHOU", "votes": 5 },
+            { "name": "JANE KIM", "votes": 5 },
+            { "name": "LONDON BREED", "votes": 4 },
+            { "name": "MARK LENO", "votes": 3 },
+            { "name": "RICHIE GREENBERG", "votes": 2 },
+            { "name": null, "votes": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LONDON BREED",
+      "children": [
+        {
+          "name": "MICHELLE BRAVO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 180 },
+            { "name": "ANGELA ALIOTO", "votes": 207 },
+            { "name": "ELLEN LEE ZHOU", "votes": 268 },
+            { "name": "JANE KIM", "votes": 104 },
+            { "name": "LONDON BREED", "votes": 12 },
+            { "name": "MARK LENO", "votes": 101 },
+            { "name": "MICHELLE BRAVO", "votes": 13 },
+            { "name": "RICHIE GREENBERG", "votes": 109 },
+            { "name": null, "votes": 55 }
+          ]
+        },
+        {
+          "name": null,
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 16 },
+            { "name": "ANGELA ALIOTO", "votes": 71 },
+            { "name": "ELLEN LEE ZHOU", "votes": 21 },
+            { "name": "JANE KIM", "votes": 55 },
+            { "name": "LONDON BREED", "votes": 35 },
+            { "name": "MARK LENO", "votes": 85 },
+            { "name": "MICHELLE BRAVO", "votes": 14 },
+            { "name": "RICHIE GREENBERG", "votes": 17 },
+            { "name": null, "votes": 14457 }
+          ]
+        },
+        {
+          "name": "LONDON BREED",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 17 },
+            { "name": "ANGELA ALIOTO", "votes": 175 },
+            { "name": "ELLEN LEE ZHOU", "votes": 35 },
+            { "name": "JANE KIM", "votes": 182 },
+            { "name": "LONDON BREED", "votes": 5542 },
+            { "name": "MARK LENO", "votes": 232 },
+            { "name": "MICHELLE BRAVO", "votes": 18 },
+            { "name": "RICHIE GREENBERG", "votes": 14 },
+            { "name": null, "votes": 220 }
+          ]
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 11 },
+            { "name": "ANGELA ALIOTO", "votes": 325 },
+            { "name": "ELLEN LEE ZHOU", "votes": 316 },
+            { "name": "JANE KIM", "votes": 217 },
+            { "name": "LONDON BREED", "votes": 6 },
+            { "name": "MARK LENO", "votes": 302 },
+            { "name": "MICHELLE BRAVO", "votes": 197 },
+            { "name": "RICHIE GREENBERG", "votes": 215 },
+            { "name": null, "votes": 161 }
+          ]
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 1187 },
+            { "name": "ANGELA ALIOTO", "votes": 126 },
+            { "name": "ELLEN LEE ZHOU", "votes": 1406 },
+            { "name": "JANE KIM", "votes": 2981 },
+            { "name": "LONDON BREED", "votes": 187 },
+            { "name": "MARK LENO", "votes": 4231 },
+            { "name": "MICHELLE BRAVO", "votes": 694 },
+            { "name": "RICHIE GREENBERG", "votes": 1431 },
+            { "name": null, "votes": 2956 }
+          ]
+        },
+        {
+          "name": "MARK LENO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 953 },
+            { "name": "ANGELA ALIOTO", "votes": 6188 },
+            { "name": "ELLEN LEE ZHOU", "votes": 835 },
+            { "name": "JANE KIM", "votes": 11937 },
+            { "name": "LONDON BREED", "votes": 249 },
+            { "name": "MARK LENO", "votes": 104 },
+            { "name": "MICHELLE BRAVO", "votes": 382 },
+            { "name": "RICHIE GREENBERG", "votes": 763 },
+            { "name": "WRITE-IN ANTOINE R. ROGERS", "votes": 4 },
+            { "name": null, "votes": 5888 }
+          ]
+        },
+        {
+          "name": "WRITE-IN ANTOINE R. ROGERS",
+          "children": [
+            { "name": "ANGELA ALIOTO", "votes": 2 },
+            { "name": "ELLEN LEE ZHOU", "votes": 1 },
+            { "name": null, "votes": 2 }
+          ]
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 230 },
+            { "name": "ANGELA ALIOTO", "votes": 703 },
+            { "name": "ELLEN LEE ZHOU", "votes": 261 },
+            { "name": "JANE KIM", "votes": 136 },
+            { "name": "LONDON BREED", "votes": 12 },
+            { "name": "MARK LENO", "votes": 340 },
+            { "name": "MICHELLE BRAVO", "votes": 157 },
+            { "name": "RICHIE GREENBERG", "votes": 16 },
+            { "name": null, "votes": 354 }
+          ]
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 343 },
+            { "name": "ANGELA ALIOTO", "votes": 926 },
+            { "name": "ELLEN LEE ZHOU", "votes": 46 },
+            { "name": "JANE KIM", "votes": 390 },
+            { "name": "LONDON BREED", "votes": 30 },
+            { "name": "MARK LENO", "votes": 480 },
+            { "name": "MICHELLE BRAVO", "votes": 287 },
+            { "name": "RICHIE GREENBERG", "votes": 321 },
+            { "name": null, "votes": 350 }
+          ]
+        },
+        {
+          "name": "JANE KIM",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 748 },
+            { "name": "ANGELA ALIOTO", "votes": 4238 },
+            { "name": "ELLEN LEE ZHOU", "votes": 984 },
+            { "name": "JANE KIM", "votes": 61 },
+            { "name": "LONDON BREED", "votes": 138 },
+            { "name": "MARK LENO", "votes": 10848 },
+            { "name": "MICHELLE BRAVO", "votes": 292 },
+            { "name": "RICHIE GREENBERG", "votes": 275 },
+            { "name": null, "votes": 2440 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MICHELLE BRAVO",
+      "children": [
+        {
+          "name": "AMY FARAH WEISS",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 1 },
+            { "name": "ANGELA ALIOTO", "votes": 8 },
+            { "name": "ELLEN LEE ZHOU", "votes": 14 },
+            { "name": "JANE KIM", "votes": 7 },
+            { "name": "LONDON BREED", "votes": 4 },
+            { "name": "MARK LENO", "votes": 6 },
+            { "name": "MICHELLE BRAVO", "votes": 2 },
+            { "name": "RICHIE GREENBERG", "votes": 15 },
+            { "name": null, "votes": 2 }
+          ]
+        },
+        {
+          "name": "MARK LENO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 8 },
+            { "name": "ANGELA ALIOTO", "votes": 18 },
+            { "name": "ELLEN LEE ZHOU", "votes": 10 },
+            { "name": "JANE KIM", "votes": 27 },
+            { "name": "LONDON BREED", "votes": 20 },
+            { "name": "MARK LENO", "votes": 7 },
+            { "name": "MICHELLE BRAVO", "votes": 2 },
+            { "name": "RICHIE GREENBERG", "votes": 18 },
+            { "name": null, "votes": 6 }
+          ]
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 19 },
+            { "name": "ANGELA ALIOTO", "votes": 7 },
+            { "name": "ELLEN LEE ZHOU", "votes": 30 },
+            { "name": "JANE KIM", "votes": 25 },
+            { "name": "LONDON BREED", "votes": 26 },
+            { "name": "MARK LENO", "votes": 36 },
+            { "name": "MICHELLE BRAVO", "votes": 9 },
+            { "name": "RICHIE GREENBERG", "votes": 19 },
+            { "name": null, "votes": 9 }
+          ]
+        },
+        {
+          "name": "MICHELLE BRAVO",
+          "children": [
+            { "name": "ANGELA ALIOTO", "votes": 1 },
+            { "name": "ELLEN LEE ZHOU", "votes": 2 },
+            { "name": "JANE KIM", "votes": 2 },
+            { "name": "LONDON BREED", "votes": 1 },
+            { "name": "MICHELLE BRAVO", "votes": 74 },
+            { "name": "RICHIE GREENBERG", "votes": 1 },
+            { "name": null, "votes": 1 }
+          ]
+        },
+        {
+          "name": null,
+          "children": [
+            { "name": "ANGELA ALIOTO", "votes": 3 },
+            { "name": "ELLEN LEE ZHOU", "votes": 2 },
+            { "name": "LONDON BREED", "votes": 2 },
+            { "name": "MICHELLE BRAVO", "votes": 2 },
+            { "name": null, "votes": 54 }
+          ]
+        },
+        {
+          "name": "LONDON BREED",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 8 },
+            { "name": "ANGELA ALIOTO", "votes": 27 },
+            { "name": "ELLEN LEE ZHOU", "votes": 7 },
+            { "name": "JANE KIM", "votes": 21 },
+            { "name": "LONDON BREED", "votes": 8 },
+            { "name": "MARK LENO", "votes": 35 },
+            { "name": "MICHELLE BRAVO", "votes": 1 },
+            { "name": "RICHIE GREENBERG", "votes": 7 },
+            { "name": null, "votes": 3 }
+          ]
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 7 },
+            { "name": "ANGELA ALIOTO", "votes": 18 },
+            { "name": "ELLEN LEE ZHOU", "votes": 14 },
+            { "name": "JANE KIM", "votes": 4 },
+            { "name": "LONDON BREED", "votes": 12 },
+            { "name": "MARK LENO", "votes": 14 },
+            { "name": "MICHELLE BRAVO", "votes": 1 },
+            { "name": "RICHIE GREENBERG", "votes": 2 },
+            { "name": null, "votes": 4 }
+          ]
+        },
+        {
+          "name": "JANE KIM",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 7 },
+            { "name": "ANGELA ALIOTO", "votes": 18 },
+            { "name": "ELLEN LEE ZHOU", "votes": 10 },
+            { "name": "JANE KIM", "votes": 2 },
+            { "name": "LONDON BREED", "votes": 16 },
+            { "name": "MARK LENO", "votes": 22 },
+            { "name": "MICHELLE BRAVO", "votes": 3 },
+            { "name": "RICHIE GREENBERG", "votes": 5 },
+            { "name": null, "votes": 6 }
+          ]
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 27 },
+            { "name": "ANGELA ALIOTO", "votes": 25 },
+            { "name": "ELLEN LEE ZHOU", "votes": 4 },
+            { "name": "JANE KIM", "votes": 9 },
+            { "name": "LONDON BREED", "votes": 9 },
+            { "name": "MARK LENO", "votes": 11 },
+            { "name": "MICHELLE BRAVO", "votes": 4 },
+            { "name": "RICHIE GREENBERG", "votes": 11 },
+            { "name": null, "votes": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MARK LENO",
+      "children": [
+        {
+          "name": "RICHIE GREENBERG",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 173 },
+            { "name": "ANGELA ALIOTO", "votes": 236 },
+            { "name": "ELLEN LEE ZHOU", "votes": 98 },
+            { "name": "JANE KIM", "votes": 152 },
+            { "name": "LONDON BREED", "votes": 200 },
+            { "name": "MARK LENO", "votes": 8 },
+            { "name": "MICHELLE BRAVO", "votes": 93 },
+            { "name": "RICHIE GREENBERG", "votes": 11 },
+            { "name": null, "votes": 156 }
+          ]
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 81 },
+            { "name": "ANGELA ALIOTO", "votes": 150 },
+            { "name": "ELLEN LEE ZHOU", "votes": 18 },
+            { "name": "JANE KIM", "votes": 172 },
+            { "name": "LONDON BREED", "votes": 226 },
+            { "name": "MARK LENO", "votes": 10 },
+            { "name": "MICHELLE BRAVO", "votes": 68 },
+            { "name": "RICHIE GREENBERG", "votes": 106 },
+            { "name": null, "votes": 93 }
+          ]
+        },
+        {
+          "name": "JANE KIM",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 4514 },
+            { "name": "ANGELA ALIOTO", "votes": 5811 },
+            { "name": "ELLEN LEE ZHOU", "votes": 982 },
+            { "name": "JANE KIM", "votes": 108 },
+            { "name": "LONDON BREED", "votes": 11074 },
+            { "name": "MARK LENO", "votes": 299 },
+            { "name": "MICHELLE BRAVO", "votes": 496 },
+            { "name": "RICHIE GREENBERG", "votes": 492 },
+            { "name": "WRITE-IN ANTOINE R. ROGERS", "votes": 3 },
+            { "name": null, "votes": 6906 }
+          ]
+        },
+        {
+          "name": "MICHELLE BRAVO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 59 },
+            { "name": "ANGELA ALIOTO", "votes": 69 },
+            { "name": "ELLEN LEE ZHOU", "votes": 63 },
+            { "name": "JANE KIM", "votes": 42 },
+            { "name": "LONDON BREED", "votes": 45 },
+            { "name": "MARK LENO", "votes": 7 },
+            { "name": "MICHELLE BRAVO", "votes": 5 },
+            { "name": "RICHIE GREENBERG", "votes": 51 },
+            { "name": null, "votes": 14 }
+          ]
+        },
+        {
+          "name": null,
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 6 },
+            { "name": "ANGELA ALIOTO", "votes": 20 },
+            { "name": "ELLEN LEE ZHOU", "votes": 3 },
+            { "name": "JANE KIM", "votes": 32 },
+            { "name": "LONDON BREED", "votes": 44 },
+            { "name": "MARK LENO", "votes": 11 },
+            { "name": "MICHELLE BRAVO", "votes": 4 },
+            { "name": "RICHIE GREENBERG", "votes": 4 },
+            { "name": null, "votes": 3856 }
+          ]
+        },
+        {
+          "name": "LONDON BREED",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 483 },
+            { "name": "ANGELA ALIOTO", "votes": 3118 },
+            { "name": "ELLEN LEE ZHOU", "votes": 521 },
+            { "name": "JANE KIM", "votes": 7705 },
+            { "name": "LONDON BREED", "votes": 97 },
+            { "name": "MARK LENO", "votes": 180 },
+            { "name": "MICHELLE BRAVO", "votes": 186 },
+            { "name": "RICHIE GREENBERG", "votes": 343 },
+            { "name": null, "votes": 2899 }
+          ]
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 10 },
+            { "name": "ANGELA ALIOTO", "votes": 127 },
+            { "name": "ELLEN LEE ZHOU", "votes": 87 },
+            { "name": "JANE KIM", "votes": 355 },
+            { "name": "LONDON BREED", "votes": 160 },
+            { "name": "MARK LENO", "votes": 3 },
+            { "name": "MICHELLE BRAVO", "votes": 81 },
+            { "name": "RICHIE GREENBERG", "votes": 82 },
+            { "name": null, "votes": 88 }
+          ]
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 336 },
+            { "name": "ANGELA ALIOTO", "votes": 50 },
+            { "name": "ELLEN LEE ZHOU", "votes": 311 },
+            { "name": "JANE KIM", "votes": 1670 },
+            { "name": "LONDON BREED", "votes": 1715 },
+            { "name": "MARK LENO", "votes": 88 },
+            { "name": "MICHELLE BRAVO", "votes": 290 },
+            { "name": "RICHIE GREENBERG", "votes": 359 },
+            { "name": null, "votes": 770 }
+          ]
+        },
+        {
+          "name": "MARK LENO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 10 },
+            { "name": "ANGELA ALIOTO", "votes": 72 },
+            { "name": "ELLEN LEE ZHOU", "votes": 12 },
+            { "name": "JANE KIM", "votes": 130 },
+            { "name": "LONDON BREED", "votes": 111 },
+            { "name": "MARK LENO", "votes": 1664 },
+            { "name": "MICHELLE BRAVO", "votes": 4 },
+            { "name": "RICHIE GREENBERG", "votes": 8 },
+            { "name": null, "votes": 80 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ANGELA ALIOTO",
+      "children": [
+        {
+          "name": "RICHIE GREENBERG",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 218 },
+            { "name": "ANGELA ALIOTO", "votes": 34 },
+            { "name": "ELLEN LEE ZHOU", "votes": 177 },
+            { "name": "JANE KIM", "votes": 90 },
+            { "name": "LONDON BREED", "votes": 270 },
+            { "name": "MARK LENO", "votes": 217 },
+            { "name": "MICHELLE BRAVO", "votes": 134 },
+            { "name": "RICHIE GREENBERG", "votes": 11 },
+            { "name": null, "votes": 259 }
+          ]
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 125 },
+            { "name": "ANGELA ALIOTO", "votes": 17 },
+            { "name": "ELLEN LEE ZHOU", "votes": 13 },
+            { "name": "JANE KIM", "votes": 105 },
+            { "name": "LONDON BREED", "votes": 194 },
+            { "name": "MARK LENO", "votes": 119 },
+            { "name": "MICHELLE BRAVO", "votes": 121 },
+            { "name": "RICHIE GREENBERG", "votes": 158 },
+            { "name": null, "votes": 87 }
+          ]
+        },
+        {
+          "name": "JANE KIM",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 137 },
+            { "name": "ANGELA ALIOTO", "votes": 34 },
+            { "name": "ELLEN LEE ZHOU", "votes": 148 },
+            { "name": "JANE KIM", "votes": 20 },
+            { "name": "LONDON BREED", "votes": 688 },
+            { "name": "MARK LENO", "votes": 759 },
+            { "name": "MICHELLE BRAVO", "votes": 75 },
+            { "name": "RICHIE GREENBERG", "votes": 103 },
+            { "name": null, "votes": 171 }
+          ]
+        },
+        {
+          "name": "MICHELLE BRAVO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 85 },
+            { "name": "ANGELA ALIOTO", "votes": 11 },
+            { "name": "ELLEN LEE ZHOU", "votes": 96 },
+            { "name": "JANE KIM", "votes": 53 },
+            { "name": "LONDON BREED", "votes": 63 },
+            { "name": "MARK LENO", "votes": 68 },
+            { "name": "MICHELLE BRAVO", "votes": 13 },
+            { "name": "RICHIE GREENBERG", "votes": 81 },
+            { "name": null, "votes": 29 }
+          ]
+        },
+        {
+          "name": "LONDON BREED",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 227 },
+            { "name": "ANGELA ALIOTO", "votes": 90 },
+            { "name": "ELLEN LEE ZHOU", "votes": 308 },
+            { "name": "JANE KIM", "votes": 1010 },
+            { "name": "LONDON BREED", "votes": 63 },
+            { "name": "MARK LENO", "votes": 1490 },
+            { "name": "MICHELLE BRAVO", "votes": 147 },
+            { "name": "RICHIE GREENBERG", "votes": 469 },
+            { "name": null, "votes": 834 }
+          ]
+        },
+        {
+          "name": null,
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 4 },
+            { "name": "ANGELA ALIOTO", "votes": 10 },
+            { "name": "ELLEN LEE ZHOU", "votes": 5 },
+            { "name": "JANE KIM", "votes": 9 },
+            { "name": "LONDON BREED", "votes": 16 },
+            { "name": "MARK LENO", "votes": 13 },
+            { "name": "MICHELLE BRAVO", "votes": 6 },
+            { "name": "RICHIE GREENBERG", "votes": 9 },
+            { "name": null, "votes": 2010 }
+          ]
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 4 },
+            { "name": "ANGELA ALIOTO", "votes": 9 },
+            { "name": "ELLEN LEE ZHOU", "votes": 145 },
+            { "name": "JANE KIM", "votes": 82 },
+            { "name": "LONDON BREED", "votes": 91 },
+            { "name": "MARK LENO", "votes": 51 },
+            { "name": "MICHELLE BRAVO", "votes": 93 },
+            { "name": "RICHIE GREENBERG", "votes": 94 },
+            { "name": null, "votes": 30 }
+          ]
+        },
+        {
+          "name": "MARK LENO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 180 },
+            { "name": "ANGELA ALIOTO", "votes": 71 },
+            { "name": "ELLEN LEE ZHOU", "votes": 154 },
+            { "name": "JANE KIM", "votes": 1014 },
+            { "name": "LONDON BREED", "votes": 1126 },
+            { "name": "MARK LENO", "votes": 45 },
+            { "name": "MICHELLE BRAVO", "votes": 169 },
+            { "name": "RICHIE GREENBERG", "votes": 355 },
+            { "name": null, "votes": 442 }
+          ]
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 4 },
+            { "name": "ANGELA ALIOTO", "votes": 1355 },
+            { "name": "ELLEN LEE ZHOU", "votes": 7 },
+            { "name": "JANE KIM", "votes": 25 },
+            { "name": "LONDON BREED", "votes": 51 },
+            { "name": "MARK LENO", "votes": 54 },
+            { "name": "MICHELLE BRAVO", "votes": 10 },
+            { "name": "RICHIE GREENBERG", "votes": 23 },
+            { "name": null, "votes": 60 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AMY FARAH WEISS",
+      "children": [
+        {
+          "name": "ELLEN LEE ZHOU",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 2 },
+            { "name": "ANGELA ALIOTO", "votes": 24 },
+            { "name": "ELLEN LEE ZHOU", "votes": 1 },
+            { "name": "JANE KIM", "votes": 10 },
+            { "name": "LONDON BREED", "votes": 12 },
+            { "name": "MARK LENO", "votes": 10 },
+            { "name": "MICHELLE BRAVO", "votes": 28 },
+            { "name": "RICHIE GREENBERG", "votes": 17 },
+            { "name": null, "votes": 1 }
+          ]
+        },
+        {
+          "name": "JANE KIM",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 2 },
+            { "name": "ANGELA ALIOTO", "votes": 34 },
+            { "name": "ELLEN LEE ZHOU", "votes": 20 },
+            { "name": "JANE KIM", "votes": 1 },
+            { "name": "LONDON BREED", "votes": 82 },
+            { "name": "MARK LENO", "votes": 399 },
+            { "name": "MICHELLE BRAVO", "votes": 10 },
+            { "name": "RICHIE GREENBERG", "votes": 3 },
+            { "name": null, "votes": 20 }
+          ]
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 2 },
+            { "name": "ANGELA ALIOTO", "votes": 14 },
+            { "name": "ELLEN LEE ZHOU", "votes": 23 },
+            { "name": "JANE KIM", "votes": 6 },
+            { "name": "LONDON BREED", "votes": 10 },
+            { "name": "MARK LENO", "votes": 18 },
+            { "name": "MICHELLE BRAVO", "votes": 10 },
+            { "name": "RICHIE GREENBERG", "votes": 1 },
+            { "name": null, "votes": 3 }
+          ]
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 2 },
+            { "name": "ANGELA ALIOTO", "votes": 2 },
+            { "name": "ELLEN LEE ZHOU", "votes": 38 },
+            { "name": "JANE KIM", "votes": 31 },
+            { "name": "LONDON BREED", "votes": 29 },
+            { "name": "MARK LENO", "votes": 27 },
+            { "name": "MICHELLE BRAVO", "votes": 20 },
+            { "name": "RICHIE GREENBERG", "votes": 15 },
+            { "name": null, "votes": 8 }
+          ]
+        },
+        {
+          "name": "MARK LENO",
+          "children": [
+            { "name": "ANGELA ALIOTO", "votes": 27 },
+            { "name": "ELLEN LEE ZHOU", "votes": 7 },
+            { "name": "JANE KIM", "votes": 189 },
+            { "name": "LONDON BREED", "votes": 57 },
+            { "name": "MARK LENO", "votes": 1 },
+            { "name": "MICHELLE BRAVO", "votes": 5 },
+            { "name": "RICHIE GREENBERG", "votes": 19 },
+            { "name": null, "votes": 19 }
+          ]
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 47 },
+            { "name": "ANGELA ALIOTO", "votes": 1 },
+            { "name": "ELLEN LEE ZHOU", "votes": 1 },
+            { "name": "JANE KIM", "votes": 1 },
+            { "name": "LONDON BREED", "votes": 1 },
+            { "name": "MARK LENO", "votes": 1 },
+            { "name": "RICHIE GREENBERG", "votes": 1 },
+            { "name": null, "votes": 3 }
+          ]
+        },
+        {
+          "name": "LONDON BREED",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 2 },
+            { "name": "ANGELA ALIOTO", "votes": 28 },
+            { "name": "ELLEN LEE ZHOU", "votes": 14 },
+            { "name": "JANE KIM", "votes": 46 },
+            { "name": "LONDON BREED", "votes": 1 },
+            { "name": "MARK LENO", "votes": 68 },
+            { "name": "MICHELLE BRAVO", "votes": 8 },
+            { "name": "RICHIE GREENBERG", "votes": 7 },
+            { "name": null, "votes": 11 }
+          ]
+        },
+        {
+          "name": null,
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 1 },
+            { "name": "JANE KIM", "votes": 1 },
+            { "name": "LONDON BREED", "votes": 1 },
+            { "name": "MICHELLE BRAVO", "votes": 3 },
+            { "name": null, "votes": 71 }
+          ]
+        },
+        {
+          "name": "MICHELLE BRAVO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 3 },
+            { "name": "ANGELA ALIOTO", "votes": 9 },
+            { "name": "ELLEN LEE ZHOU", "votes": 21 },
+            { "name": "JANE KIM", "votes": 13 },
+            { "name": "LONDON BREED", "votes": 8 },
+            { "name": "MARK LENO", "votes": 17 },
+            { "name": "MICHELLE BRAVO", "votes": 2 },
+            { "name": "RICHIE GREENBERG", "votes": 8 },
+            { "name": null, "votes": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WRITE-IN ANTOINE R. ROGERS",
+      "children": [
+        {
+          "name": "LONDON BREED",
+          "children": [
+            { "name": "ANGELA ALIOTO", "votes": 2 },
+            { "name": "MICHELLE BRAVO", "votes": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ELLEN LEE ZHOU",
+      "children": [
+        {
+          "name": "ELLEN LEE ZHOU",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 2 },
+            { "name": "ANGELA ALIOTO", "votes": 11 },
+            { "name": "ELLEN LEE ZHOU", "votes": 622 },
+            { "name": "JANE KIM", "votes": 12 },
+            { "name": "LONDON BREED", "votes": 27 },
+            { "name": "MARK LENO", "votes": 13 },
+            { "name": "MICHELLE BRAVO", "votes": 6 },
+            { "name": "RICHIE GREENBERG", "votes": 14 },
+            { "name": null, "votes": 32 }
+          ]
+        },
+        {
+          "name": "JANE KIM",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 53 },
+            { "name": "ANGELA ALIOTO", "votes": 182 },
+            { "name": "ELLEN LEE ZHOU", "votes": 26 },
+            { "name": "JANE KIM", "votes": 12 },
+            { "name": "LONDON BREED", "votes": 405 },
+            { "name": "MARK LENO", "votes": 339 },
+            { "name": "MICHELLE BRAVO", "votes": 52 },
+            { "name": "RICHIE GREENBERG", "votes": 57 },
+            { "name": null, "votes": 87 }
+          ]
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 89 },
+            { "name": "ANGELA ALIOTO", "votes": 347 },
+            { "name": "ELLEN LEE ZHOU", "votes": 9 },
+            { "name": "JANE KIM", "votes": 68 },
+            { "name": "LONDON BREED", "votes": 209 },
+            { "name": "MARK LENO", "votes": 78 },
+            { "name": "MICHELLE BRAVO", "votes": 83 },
+            { "name": "RICHIE GREENBERG", "votes": 10 },
+            { "name": null, "votes": 123 }
+          ]
+        },
+        {
+          "name": null,
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 2 },
+            { "name": "ANGELA ALIOTO", "votes": 7 },
+            { "name": "ELLEN LEE ZHOU", "votes": 5 },
+            { "name": "JANE KIM", "votes": 4 },
+            { "name": "LONDON BREED", "votes": 7 },
+            { "name": "MARK LENO", "votes": 6 },
+            { "name": "RICHIE GREENBERG", "votes": 4 },
+            { "name": null, "votes": 985 }
+          ]
+        },
+        {
+          "name": "LONDON BREED",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 66 },
+            { "name": "ANGELA ALIOTO", "votes": 732 },
+            { "name": "ELLEN LEE ZHOU", "votes": 37 },
+            { "name": "JANE KIM", "votes": 360 },
+            { "name": "LONDON BREED", "votes": 27 },
+            { "name": "MARK LENO", "votes": 543 },
+            { "name": "MICHELLE BRAVO", "votes": 57 },
+            { "name": "RICHIE GREENBERG", "votes": 259 },
+            { "name": null, "votes": 290 }
+          ]
+        },
+        {
+          "name": "MICHELLE BRAVO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 56 },
+            { "name": "ANGELA ALIOTO", "votes": 35 },
+            { "name": "ELLEN LEE ZHOU", "votes": 2 },
+            { "name": "JANE KIM", "votes": 18 },
+            { "name": "LONDON BREED", "votes": 28 },
+            { "name": "MARK LENO", "votes": 17 },
+            { "name": "MICHELLE BRAVO", "votes": 1 },
+            { "name": "RICHIE GREENBERG", "votes": 20 },
+            { "name": null, "votes": 13 }
+          ]
+        },
+        {
+          "name": "MARK LENO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 37 },
+            { "name": "ANGELA ALIOTO", "votes": 172 },
+            { "name": "ELLEN LEE ZHOU", "votes": 6 },
+            { "name": "JANE KIM", "votes": 274 },
+            { "name": "LONDON BREED", "votes": 334 },
+            { "name": "MARK LENO", "votes": 4 },
+            { "name": "MICHELLE BRAVO", "votes": 34 },
+            { "name": "RICHIE GREENBERG", "votes": 72 },
+            { "name": null, "votes": 95 }
+          ]
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 106 },
+            { "name": "ANGELA ALIOTO", "votes": 9 },
+            { "name": "ELLEN LEE ZHOU", "votes": 15 },
+            { "name": "JANE KIM", "votes": 97 },
+            { "name": "LONDON BREED", "votes": 558 },
+            { "name": "MARK LENO", "votes": 187 },
+            { "name": "MICHELLE BRAVO", "votes": 76 },
+            { "name": "RICHIE GREENBERG", "votes": 506 },
+            { "name": null, "votes": 138 }
+          ]
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 1 },
+            { "name": "ANGELA ALIOTO", "votes": 61 },
+            { "name": "ELLEN LEE ZHOU", "votes": 3 },
+            { "name": "JANE KIM", "votes": 21 },
+            { "name": "LONDON BREED", "votes": 30 },
+            { "name": "MARK LENO", "votes": 26 },
+            { "name": "MICHELLE BRAVO", "votes": 48 },
+            { "name": "RICHIE GREENBERG", "votes": 50 },
+            { "name": null, "votes": 12 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JANE KIM",
+      "children": [
+        {
+          "name": "JANE KIM",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 8 },
+            { "name": "ANGELA ALIOTO", "votes": 37 },
+            { "name": "ELLEN LEE ZHOU", "votes": 18 },
+            { "name": "JANE KIM", "votes": 1035 },
+            { "name": "LONDON BREED", "votes": 65 },
+            { "name": "MARK LENO", "votes": 113 },
+            { "name": "MICHELLE BRAVO", "votes": 6 },
+            { "name": "RICHIE GREENBERG", "votes": 3 },
+            { "name": null, "votes": 51 }
+          ]
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 126 },
+            { "name": "ANGELA ALIOTO", "votes": 269 },
+            { "name": "ELLEN LEE ZHOU", "votes": 15 },
+            { "name": "JANE KIM", "votes": 14 },
+            { "name": "LONDON BREED", "votes": 418 },
+            { "name": "MARK LENO", "votes": 319 },
+            { "name": "MICHELLE BRAVO", "votes": 89 },
+            { "name": "RICHIE GREENBERG", "votes": 62 },
+            { "name": null, "votes": 136 }
+          ]
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 49 },
+            { "name": "ANGELA ALIOTO", "votes": 47 },
+            { "name": "ELLEN LEE ZHOU", "votes": 38 },
+            { "name": "JANE KIM", "votes": 4 },
+            { "name": "LONDON BREED", "votes": 68 },
+            { "name": "MARK LENO", "votes": 62 },
+            { "name": "MICHELLE BRAVO", "votes": 17 },
+            { "name": "RICHIE GREENBERG", "votes": 1 },
+            { "name": null, "votes": 17 }
+          ]
+        },
+        {
+          "name": null,
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 6 },
+            { "name": "ANGELA ALIOTO", "votes": 11 },
+            { "name": "ELLEN LEE ZHOU", "votes": 8 },
+            { "name": "JANE KIM", "votes": 10 },
+            { "name": "LONDON BREED", "votes": 22 },
+            { "name": "MARK LENO", "votes": 28 },
+            { "name": "MICHELLE BRAVO", "votes": 2 },
+            { "name": "RICHIE GREENBERG", "votes": 2 },
+            { "name": null, "votes": 1892 }
+          ]
+        },
+        {
+          "name": "LONDON BREED",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 454 },
+            { "name": "ANGELA ALIOTO", "votes": 1798 },
+            { "name": "ELLEN LEE ZHOU", "votes": 661 },
+            { "name": "JANE KIM", "votes": 80 },
+            { "name": "LONDON BREED", "votes": 38 },
+            { "name": "MARK LENO", "votes": 5761 },
+            { "name": "MICHELLE BRAVO", "votes": 164 },
+            { "name": "RICHIE GREENBERG", "votes": 148 },
+            { "name": null, "votes": 1145 }
+          ]
+        },
+        {
+          "name": "MICHELLE BRAVO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 32 },
+            { "name": "ANGELA ALIOTO", "votes": 56 },
+            { "name": "ELLEN LEE ZHOU", "votes": 64 },
+            { "name": "JANE KIM", "votes": 6 },
+            { "name": "LONDON BREED", "votes": 46 },
+            { "name": "MARK LENO", "votes": 39 },
+            { "name": "MICHELLE BRAVO", "votes": 5 },
+            { "name": "RICHIE GREENBERG", "votes": 20 },
+            { "name": null, "votes": 8 }
+          ]
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 240 },
+            { "name": "ANGELA ALIOTO", "votes": 20 },
+            { "name": "ELLEN LEE ZHOU", "votes": 355 },
+            { "name": "JANE KIM", "votes": 32 },
+            { "name": "LONDON BREED", "votes": 879 },
+            { "name": "MARK LENO", "votes": 912 },
+            { "name": "MICHELLE BRAVO", "votes": 80 },
+            { "name": "RICHIE GREENBERG", "votes": 86 },
+            { "name": null, "votes": 244 }
+          ]
+        },
+        {
+          "name": "MARK LENO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 15654 },
+            { "name": "ANGELA ALIOTO", "votes": 4649 },
+            { "name": "ELLEN LEE ZHOU", "votes": 1407 },
+            { "name": "JANE KIM", "votes": 249 },
+            { "name": "LONDON BREED", "votes": 10484 },
+            { "name": "MARK LENO", "votes": 86 },
+            { "name": "MICHELLE BRAVO", "votes": 480 },
+            { "name": "RICHIE GREENBERG", "votes": 318 },
+            { "name": "WRITE-IN ANTOINE R. ROGERS", "votes": 1 },
+            { "name": null, "votes": 7112 }
+          ]
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 2 },
+            { "name": "ANGELA ALIOTO", "votes": 134 },
+            { "name": "ELLEN LEE ZHOU", "votes": 99 },
+            { "name": "JANE KIM", "votes": 5 },
+            { "name": "LONDON BREED", "votes": 187 },
+            { "name": "MARK LENO", "votes": 1192 },
+            { "name": "MICHELLE BRAVO", "votes": 56 },
+            { "name": "RICHIE GREENBERG", "votes": 18 },
+            { "name": null, "votes": 70 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RICHIE GREENBERG",
+      "children": [
+        {
+          "name": "JANE KIM",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 27 },
+            { "name": "ANGELA ALIOTO", "votes": 63 },
+            { "name": "ELLEN LEE ZHOU", "votes": 29 },
+            { "name": "JANE KIM", "votes": 3 },
+            { "name": "LONDON BREED", "votes": 80 },
+            { "name": "MARK LENO", "votes": 95 },
+            { "name": "MICHELLE BRAVO", "votes": 14 },
+            { "name": "RICHIE GREENBERG", "votes": 4 },
+            { "name": null, "votes": 49 }
+          ]
+        },
+        {
+          "name": "ELLEN LEE ZHOU",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 70 },
+            { "name": "ANGELA ALIOTO", "votes": 151 },
+            { "name": "ELLEN LEE ZHOU", "votes": 10 },
+            { "name": "JANE KIM", "votes": 60 },
+            { "name": "LONDON BREED", "votes": 95 },
+            { "name": "MARK LENO", "votes": 77 },
+            { "name": "MICHELLE BRAVO", "votes": 58 },
+            { "name": "RICHIE GREENBERG", "votes": 11 },
+            { "name": null, "votes": 126 }
+          ]
+        },
+        {
+          "name": "RICHIE GREENBERG",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 3 },
+            { "name": "ANGELA ALIOTO", "votes": 19 },
+            { "name": "ELLEN LEE ZHOU", "votes": 12 },
+            { "name": "JANE KIM", "votes": 6 },
+            { "name": "LONDON BREED", "votes": 19 },
+            { "name": "MARK LENO", "votes": 13 },
+            { "name": "MICHELLE BRAVO", "votes": 4 },
+            { "name": "RICHIE GREENBERG", "votes": 594 },
+            { "name": null, "votes": 16 }
+          ]
+        },
+        {
+          "name": "WRITE-IN ANTOINE R. ROGERS",
+          "children": [{ "name": null, "votes": 1 }]
+        },
+        {
+          "name": "ANGELA ALIOTO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 99 },
+            { "name": "ANGELA ALIOTO", "votes": 24 },
+            { "name": "ELLEN LEE ZHOU", "votes": 168 },
+            { "name": "JANE KIM", "votes": 126 },
+            { "name": "LONDON BREED", "votes": 432 },
+            { "name": "MARK LENO", "votes": 245 },
+            { "name": "MICHELLE BRAVO", "votes": 95 },
+            { "name": "RICHIE GREENBERG", "votes": 27 },
+            { "name": null, "votes": 347 }
+          ]
+        },
+        {
+          "name": "MARK LENO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 65 },
+            { "name": "ANGELA ALIOTO", "votes": 172 },
+            { "name": "ELLEN LEE ZHOU", "votes": 68 },
+            { "name": "JANE KIM", "votes": 137 },
+            { "name": "LONDON BREED", "votes": 203 },
+            { "name": "MARK LENO", "votes": 7 },
+            { "name": "MICHELLE BRAVO", "votes": 63 },
+            { "name": "RICHIE GREENBERG", "votes": 11 },
+            { "name": null, "votes": 133 }
+          ]
+        },
+        {
+          "name": "AMY FARAH WEISS",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 1 },
+            { "name": "ANGELA ALIOTO", "votes": 43 },
+            { "name": "ELLEN LEE ZHOU", "votes": 49 },
+            { "name": "JANE KIM", "votes": 18 },
+            { "name": "LONDON BREED", "votes": 33 },
+            { "name": "MARK LENO", "votes": 38 },
+            { "name": "MICHELLE BRAVO", "votes": 46 },
+            { "name": "RICHIE GREENBERG", "votes": 8 },
+            { "name": null, "votes": 20 }
+          ]
+        },
+        {
+          "name": "LONDON BREED",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 37 },
+            { "name": "ANGELA ALIOTO", "votes": 371 },
+            { "name": "ELLEN LEE ZHOU", "votes": 93 },
+            { "name": "JANE KIM", "votes": 93 },
+            { "name": "LONDON BREED", "votes": 7 },
+            { "name": "MARK LENO", "votes": 201 },
+            { "name": "MICHELLE BRAVO", "votes": 45 },
+            { "name": "RICHIE GREENBERG", "votes": 6 },
+            { "name": null, "votes": 208 }
+          ]
+        },
+        {
+          "name": null,
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 3 },
+            { "name": "ANGELA ALIOTO", "votes": 8 },
+            { "name": "ELLEN LEE ZHOU", "votes": 1 },
+            { "name": "JANE KIM", "votes": 1 },
+            { "name": "LONDON BREED", "votes": 8 },
+            { "name": "MARK LENO", "votes": 4 },
+            { "name": "MICHELLE BRAVO", "votes": 2 },
+            { "name": "RICHIE GREENBERG", "votes": 2 },
+            { "name": null, "votes": 1315 }
+          ]
+        },
+        {
+          "name": "MICHELLE BRAVO",
+          "children": [
+            { "name": "AMY FARAH WEISS", "votes": 41 },
+            { "name": "ANGELA ALIOTO", "votes": 28 },
+            { "name": "ELLEN LEE ZHOU", "votes": 49 },
+            { "name": "JANE KIM", "votes": 19 },
+            { "name": "LONDON BREED", "votes": 17 },
+            { "name": "MARK LENO", "votes": 31 },
+            { "name": "MICHELLE BRAVO", "votes": 1 },
+            { "name": "RICHIE GREENBERG", "votes": 4 },
+            { "name": null, "votes": 34 }
+          ]
+        }
+      ]
+    }
+  ]
+}
