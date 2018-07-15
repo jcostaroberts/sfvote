@@ -1,0 +1,877 @@
+{
+  "links": [
+    {
+      "source": 0, 
+      "target": 11, 
+      "value": 898
+    }, 
+    {
+      "source": 1, 
+      "target": 12, 
+      "value": 91971
+    }, 
+    {
+      "source": 2, 
+      "target": 13, 
+      "value": 61349
+    }, 
+    {
+      "source": 3, 
+      "target": 14, 
+      "value": 60596
+    }, 
+    {
+      "source": 4, 
+      "target": 15, 
+      "value": 7043
+    }, 
+    {
+      "source": 5, 
+      "target": 16, 
+      "value": 17521
+    }, 
+    {
+      "source": 6, 
+      "target": 17, 
+      "value": 1672
+    }, 
+    {
+      "source": 7, 
+      "target": 18, 
+      "value": 9557
+    }, 
+    {
+      "source": 9, 
+      "target": 19, 
+      "value": 100
+    }, 
+    {
+      "source": 10, 
+      "target": 20, 
+      "value": 604
+    }, 
+    {
+      "source": 11, 
+      "target": 21, 
+      "value": 898
+    }, 
+    {
+      "source": 19, 
+      "target": 22, 
+      "value": 3.0
+    }, 
+    {
+      "source": 12, 
+      "target": 22, 
+      "value": 91971
+    }, 
+    {
+      "source": 13, 
+      "target": 23, 
+      "value": 61349
+    }, 
+    {
+      "source": 14, 
+      "target": 24, 
+      "value": 60596
+    }, 
+    {
+      "source": 15, 
+      "target": 25, 
+      "value": 7043
+    }, 
+    {
+      "source": 16, 
+      "target": 26, 
+      "value": 17521
+    }, 
+    {
+      "source": 17, 
+      "target": 27, 
+      "value": 1672
+    }, 
+    {
+      "source": 18, 
+      "target": 28, 
+      "value": 9557
+    }, 
+    {
+      "source": 20, 
+      "target": 29, 
+      "value": 604
+    }, 
+    {
+      "source": 21, 
+      "target": 30, 
+      "value": 119.0
+    }, 
+    {
+      "source": 22, 
+      "target": 30, 
+      "value": 91974
+    }, 
+    {
+      "source": 21, 
+      "target": 31, 
+      "value": 117.0
+    }, 
+    {
+      "source": 23, 
+      "target": 31, 
+      "value": 61349
+    }, 
+    {
+      "source": 21, 
+      "target": 32, 
+      "value": 91.0
+    }, 
+    {
+      "source": 24, 
+      "target": 32, 
+      "value": 60596
+    }, 
+    {
+      "source": 21, 
+      "target": 33, 
+      "value": 77.0
+    }, 
+    {
+      "source": 25, 
+      "target": 33, 
+      "value": 7043
+    }, 
+    {
+      "source": 21, 
+      "target": 34, 
+      "value": 185.0
+    }, 
+    {
+      "source": 26, 
+      "target": 34, 
+      "value": 17521
+    }, 
+    {
+      "source": 21, 
+      "target": 35, 
+      "value": 60.0
+    }, 
+    {
+      "source": 27, 
+      "target": 35, 
+      "value": 1672
+    }, 
+    {
+      "source": 21, 
+      "target": 36, 
+      "value": 110.0
+    }, 
+    {
+      "source": 28, 
+      "target": 36, 
+      "value": 9557
+    }, 
+    {
+      "source": 21, 
+      "target": 37, 
+      "value": 139.0
+    }, 
+    {
+      "source": 29, 
+      "target": 37, 
+      "value": 604
+    }, 
+    {
+      "source": 35, 
+      "target": 38, 
+      "value": 198.0
+    }, 
+    {
+      "source": 30, 
+      "target": 38, 
+      "value": 92093
+    }, 
+    {
+      "source": 35, 
+      "target": 39, 
+      "value": 348.0
+    }, 
+    {
+      "source": 31, 
+      "target": 39, 
+      "value": 61466
+    }, 
+    {
+      "source": 35, 
+      "target": 40, 
+      "value": 592.0
+    }, 
+    {
+      "source": 32, 
+      "target": 40, 
+      "value": 60687
+    }, 
+    {
+      "source": 35, 
+      "target": 41, 
+      "value": 114.0
+    }, 
+    {
+      "source": 33, 
+      "target": 41, 
+      "value": 7120
+    }, 
+    {
+      "source": 35, 
+      "target": 42, 
+      "value": 192.0
+    }, 
+    {
+      "source": 34, 
+      "target": 42, 
+      "value": 17706
+    }, 
+    {
+      "source": 35, 
+      "target": 43, 
+      "value": 141.0
+    }, 
+    {
+      "source": 36, 
+      "target": 43, 
+      "value": 9667
+    }, 
+    {
+      "source": 35, 
+      "target": 44, 
+      "value": 147.0
+    }, 
+    {
+      "source": 37, 
+      "target": 44, 
+      "value": 743
+    }, 
+    {
+      "source": 41, 
+      "target": 45, 
+      "value": 1163.0
+    }, 
+    {
+      "source": 38, 
+      "target": 45, 
+      "value": 92291
+    }, 
+    {
+      "source": 41, 
+      "target": 46, 
+      "value": 979.0
+    }, 
+    {
+      "source": 39, 
+      "target": 46, 
+      "value": 61814
+    }, 
+    {
+      "source": 41, 
+      "target": 47, 
+      "value": 421.0
+    }, 
+    {
+      "source": 40, 
+      "target": 47, 
+      "value": 61279
+    }, 
+    {
+      "source": 41, 
+      "target": 48, 
+      "value": 1695.0
+    }, 
+    {
+      "source": 42, 
+      "target": 48, 
+      "value": 17898
+    }, 
+    {
+      "source": 41, 
+      "target": 49, 
+      "value": 808.0
+    }, 
+    {
+      "source": 43, 
+      "target": 49, 
+      "value": 9808
+    }, 
+    {
+      "source": 41, 
+      "target": 50, 
+      "value": 2168.0
+    }, 
+    {
+      "source": 44, 
+      "target": 50, 
+      "value": 890
+    }, 
+    {
+      "source": 49, 
+      "target": 51, 
+      "value": 2784.0
+    }, 
+    {
+      "source": 45, 
+      "target": 51, 
+      "value": 93454
+    }, 
+    {
+      "source": 49, 
+      "target": 52, 
+      "value": 1265.0
+    }, 
+    {
+      "source": 46, 
+      "target": 52, 
+      "value": 62793
+    }, 
+    {
+      "source": 49, 
+      "target": 53, 
+      "value": 1417.0
+    }, 
+    {
+      "source": 47, 
+      "target": 53, 
+      "value": 61700
+    }, 
+    {
+      "source": 49, 
+      "target": 54, 
+      "value": 2352.0
+    }, 
+    {
+      "source": 48, 
+      "target": 54, 
+      "value": 19593
+    }, 
+    {
+      "source": 49, 
+      "target": 55, 
+      "value": 2798.0
+    }, 
+    {
+      "source": 50, 
+      "target": 55, 
+      "value": 3058
+    }, 
+    {
+      "source": 54, 
+      "target": 56, 
+      "value": 6363.0
+    }, 
+    {
+      "source": 51, 
+      "target": 56, 
+      "value": 96238
+    }, 
+    {
+      "source": 54, 
+      "target": 57, 
+      "value": 4572.0
+    }, 
+    {
+      "source": 52, 
+      "target": 57, 
+      "value": 64058
+    }, 
+    {
+      "source": 54, 
+      "target": 58, 
+      "value": 2776.0
+    }, 
+    {
+      "source": 53, 
+      "target": 58, 
+      "value": 63117
+    }, 
+    {
+      "source": 54, 
+      "target": 59, 
+      "value": 8234.0
+    }, 
+    {
+      "source": 55, 
+      "target": 59, 
+      "value": 5856
+    }, 
+    {
+      "source": 58, 
+      "target": 60, 
+      "value": 13179.0
+    }, 
+    {
+      "source": 56, 
+      "target": 60, 
+      "value": 102601
+    }, 
+    {
+      "source": 58, 
+      "target": 61, 
+      "value": 44635.0
+    }, 
+    {
+      "source": 57, 
+      "target": 61, 
+      "value": 68630
+    }, 
+    {
+      "source": 58, 
+      "target": 62, 
+      "value": 8079.0
+    }, 
+    {
+      "source": 59, 
+      "target": 62, 
+      "value": 14090
+    }
+  ], 
+  "nodes": [
+    {
+      "id": 0, 
+      "name": "MICHELLE BRAVO", 
+      "round": 0, 
+      "status": "continuing", 
+      "value": 898
+    }, 
+    {
+      "id": 1, 
+      "name": "LONDON BREED", 
+      "round": 0, 
+      "status": "continuing", 
+      "value": 91971
+    }, 
+    {
+      "id": 2, 
+      "name": "MARK LENO", 
+      "round": 0, 
+      "status": "continuing", 
+      "value": 61349
+    }, 
+    {
+      "id": 3, 
+      "name": "JANE KIM", 
+      "round": 0, 
+      "status": "continuing", 
+      "value": 60596
+    }, 
+    {
+      "id": 4, 
+      "name": "RICHIE GREENBERG", 
+      "round": 0, 
+      "status": "continuing", 
+      "value": 7043
+    }, 
+    {
+      "id": 5, 
+      "name": "ANGELA ALIOTO", 
+      "round": 0, 
+      "status": "continuing", 
+      "value": 17521
+    }, 
+    {
+      "id": 6, 
+      "name": "AMY FARAH WEISS", 
+      "round": 0, 
+      "status": "continuing", 
+      "value": 1672
+    }, 
+    {
+      "id": 7, 
+      "name": "ELLEN LEE ZHOU", 
+      "round": 0, 
+      "status": "continuing", 
+      "value": 9557
+    }, 
+    {
+      "id": 8, 
+      "name": "WRITE-IN", 
+      "round": 0, 
+      "status": "eliminated", 
+      "value": 0
+    }, 
+    {
+      "id": 9, 
+      "name": "WRITE-IN ANTOINE R. ROGERS", 
+      "round": 0, 
+      "status": "continuing", 
+      "value": 30
+    }, 
+    {
+      "id": 10, 
+      "name": "EXHAUSTED", 
+      "round": 0, 
+      "status": "continuing", 
+      "value": 604
+    }, 
+    {
+      "id": 11, 
+      "name": "MICHELLE BRAVO", 
+      "round": 1, 
+      "status": "continuing", 
+      "value": 898
+    }, 
+    {
+      "id": 12, 
+      "name": "LONDON BREED", 
+      "round": 1, 
+      "status": "continuing", 
+      "value": 91971
+    }, 
+    {
+      "id": 13, 
+      "name": "MARK LENO", 
+      "round": 1, 
+      "status": "continuing", 
+      "value": 61349
+    }, 
+    {
+      "id": 14, 
+      "name": "JANE KIM", 
+      "round": 1, 
+      "status": "continuing", 
+      "value": 60596
+    }, 
+    {
+      "id": 15, 
+      "name": "RICHIE GREENBERG", 
+      "round": 1, 
+      "status": "continuing", 
+      "value": 7043
+    }, 
+    {
+      "id": 16, 
+      "name": "ANGELA ALIOTO", 
+      "round": 1, 
+      "status": "continuing", 
+      "value": 17521
+    }, 
+    {
+      "id": 17, 
+      "name": "AMY FARAH WEISS", 
+      "round": 1, 
+      "status": "continuing", 
+      "value": 1672
+    }, 
+    {
+      "id": 18, 
+      "name": "ELLEN LEE ZHOU", 
+      "round": 1, 
+      "status": "continuing", 
+      "value": 9557
+    }, 
+    {
+      "id": 19, 
+      "name": "WRITE-IN ANTOINE R. ROGERS", 
+      "round": 1, 
+      "status": "eliminated", 
+      "value": 100
+    }, 
+    {
+      "id": 20, 
+      "name": "EXHAUSTED", 
+      "round": 1, 
+      "status": "continuing", 
+      "value": 604
+    }, 
+    {
+      "id": 21, 
+      "name": "MICHELLE BRAVO", 
+      "round": 2, 
+      "status": "eliminated", 
+      "value": 898
+    }, 
+    {
+      "id": 22, 
+      "name": "LONDON BREED", 
+      "round": 2, 
+      "status": "continuing", 
+      "value": 91974
+    }, 
+    {
+      "id": 23, 
+      "name": "MARK LENO", 
+      "round": 2, 
+      "status": "continuing", 
+      "value": 61349
+    }, 
+    {
+      "id": 24, 
+      "name": "JANE KIM", 
+      "round": 2, 
+      "status": "continuing", 
+      "value": 60596
+    }, 
+    {
+      "id": 25, 
+      "name": "RICHIE GREENBERG", 
+      "round": 2, 
+      "status": "continuing", 
+      "value": 7043
+    }, 
+    {
+      "id": 26, 
+      "name": "ANGELA ALIOTO", 
+      "round": 2, 
+      "status": "continuing", 
+      "value": 17521
+    }, 
+    {
+      "id": 27, 
+      "name": "AMY FARAH WEISS", 
+      "round": 2, 
+      "status": "continuing", 
+      "value": 1672
+    }, 
+    {
+      "id": 28, 
+      "name": "ELLEN LEE ZHOU", 
+      "round": 2, 
+      "status": "continuing", 
+      "value": 9557
+    }, 
+    {
+      "id": 29, 
+      "name": "EXHAUSTED", 
+      "round": 2, 
+      "status": "continuing", 
+      "value": 604
+    }, 
+    {
+      "id": 30, 
+      "name": "LONDON BREED", 
+      "round": 3, 
+      "status": "continuing", 
+      "value": 92093
+    }, 
+    {
+      "id": 31, 
+      "name": "MARK LENO", 
+      "round": 3, 
+      "status": "continuing", 
+      "value": 61466
+    }, 
+    {
+      "id": 32, 
+      "name": "JANE KIM", 
+      "round": 3, 
+      "status": "continuing", 
+      "value": 60687
+    }, 
+    {
+      "id": 33, 
+      "name": "RICHIE GREENBERG", 
+      "round": 3, 
+      "status": "continuing", 
+      "value": 7120
+    }, 
+    {
+      "id": 34, 
+      "name": "ANGELA ALIOTO", 
+      "round": 3, 
+      "status": "continuing", 
+      "value": 17706
+    }, 
+    {
+      "id": 35, 
+      "name": "AMY FARAH WEISS", 
+      "round": 3, 
+      "status": "eliminated", 
+      "value": 1732
+    }, 
+    {
+      "id": 36, 
+      "name": "ELLEN LEE ZHOU", 
+      "round": 3, 
+      "status": "continuing", 
+      "value": 9667
+    }, 
+    {
+      "id": 37, 
+      "name": "EXHAUSTED", 
+      "round": 3, 
+      "status": "continuing", 
+      "value": 743
+    }, 
+    {
+      "id": 38, 
+      "name": "LONDON BREED", 
+      "round": 4, 
+      "status": "continuing", 
+      "value": 92291
+    }, 
+    {
+      "id": 39, 
+      "name": "MARK LENO", 
+      "round": 4, 
+      "status": "continuing", 
+      "value": 61814
+    }, 
+    {
+      "id": 40, 
+      "name": "JANE KIM", 
+      "round": 4, 
+      "status": "continuing", 
+      "value": 61279
+    }, 
+    {
+      "id": 41, 
+      "name": "RICHIE GREENBERG", 
+      "round": 4, 
+      "status": "eliminated", 
+      "value": 7234
+    }, 
+    {
+      "id": 42, 
+      "name": "ANGELA ALIOTO", 
+      "round": 4, 
+      "status": "continuing", 
+      "value": 17898
+    }, 
+    {
+      "id": 43, 
+      "name": "ELLEN LEE ZHOU", 
+      "round": 4, 
+      "status": "continuing", 
+      "value": 9808
+    }, 
+    {
+      "id": 44, 
+      "name": "EXHAUSTED", 
+      "round": 4, 
+      "status": "continuing", 
+      "value": 890
+    }, 
+    {
+      "id": 45, 
+      "name": "LONDON BREED", 
+      "round": 5, 
+      "status": "continuing", 
+      "value": 93454
+    }, 
+    {
+      "id": 46, 
+      "name": "MARK LENO", 
+      "round": 5, 
+      "status": "continuing", 
+      "value": 62793
+    }, 
+    {
+      "id": 47, 
+      "name": "JANE KIM", 
+      "round": 5, 
+      "status": "continuing", 
+      "value": 61700
+    }, 
+    {
+      "id": 48, 
+      "name": "ANGELA ALIOTO", 
+      "round": 5, 
+      "status": "continuing", 
+      "value": 19593
+    }, 
+    {
+      "id": 49, 
+      "name": "ELLEN LEE ZHOU", 
+      "round": 5, 
+      "status": "eliminated", 
+      "value": 10616
+    }, 
+    {
+      "id": 50, 
+      "name": "EXHAUSTED", 
+      "round": 5, 
+      "status": "continuing", 
+      "value": 3058
+    }, 
+    {
+      "id": 51, 
+      "name": "LONDON BREED", 
+      "round": 6, 
+      "status": "continuing", 
+      "value": 96238
+    }, 
+    {
+      "id": 52, 
+      "name": "MARK LENO", 
+      "round": 6, 
+      "status": "continuing", 
+      "value": 64058
+    }, 
+    {
+      "id": 53, 
+      "name": "JANE KIM", 
+      "round": 6, 
+      "status": "continuing", 
+      "value": 63117
+    }, 
+    {
+      "id": 54, 
+      "name": "ANGELA ALIOTO", 
+      "round": 6, 
+      "status": "eliminated", 
+      "value": 21945
+    }, 
+    {
+      "id": 55, 
+      "name": "EXHAUSTED", 
+      "round": 6, 
+      "status": "continuing", 
+      "value": 5856
+    }, 
+    {
+      "id": 56, 
+      "name": "LONDON BREED", 
+      "round": 7, 
+      "status": "continuing", 
+      "value": 102601
+    }, 
+    {
+      "id": 57, 
+      "name": "MARK LENO", 
+      "round": 7, 
+      "status": "continuing", 
+      "value": 68630
+    }, 
+    {
+      "id": 58, 
+      "name": "JANE KIM", 
+      "round": 7, 
+      "status": "eliminated", 
+      "value": 65893
+    }, 
+    {
+      "id": 59, 
+      "name": "EXHAUSTED", 
+      "round": 7, 
+      "status": "continuing", 
+      "value": 14090
+    }, 
+    {
+      "id": 60, 
+      "name": "LONDON BREED", 
+      "round": 8, 
+      "status": "final", 
+      "value": 115780
+    }, 
+    {
+      "id": 61, 
+      "name": "MARK LENO", 
+      "round": 8, 
+      "status": "final", 
+      "value": 113265
+    }, 
+    {
+      "id": 62, 
+      "name": "EXHAUSTED", 
+      "round": 8, 
+      "status": "final", 
+      "value": 22169
+    }
+  ]
+}
