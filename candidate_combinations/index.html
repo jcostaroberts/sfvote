@@ -4,7 +4,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@chartjunksf"/>
 <meta name="twitter:title" content="2018 San Francisco Mayoral Race - Ranked Choice Ballot Combinations (any candidate order)"/>
-<meta name="twitter:image" content="http://www.chartjunksf.com/20180605_election/candidate_combinations/preview.png"/>
+<meta name="twitter:image" content="http://www.chartjunksf.com/20180605_election/candidate_combinations/combinations.png"/>
 <title>2018 San Francisco Mayoral Race - Ranked Choice Ballot Combinations (any candidate order)</title>
 <style>
 .axis {
@@ -23,18 +23,24 @@ p, h1 {
 </head>
 <body>
 <h1>2018 San Francisco Mayoral Race - Ranked Choice Ballot Combinations (any candidate order)</h1>
-<svg width="960" height="500"></svg>
+<svg id="svg-1" width="1200" height="500"></svg>
 <p>The number of times each set of candidates appeared together on a ballot, no matter who the first, second, and third choice candidates were.
 For example, votes for Kim (1), Leno (2), Breed (3) and Leno (1), Kim (2), Breed (3) both count towards the first column.</p>
-
+<p>The first chart shows the top 30 candidate combinations. Below is all of them (100).</p>
+<svg id="svg-2" width="1200" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
-var svg = d3.select("svg"),
+var svg = d3.select("#svg-1"),
     margin = {top: 20, right: 20, bottom: 150, left: 40},
     width = +svg.attr("width") - margin.left - margin.right,
     height = +svg.attr("height") - margin.top - margin.bottom,
     g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var svg2 = d3.select("#svg-2"),
+        width = +svg2.attr("width") - margin.left - margin.right,
+        height = +svg2.attr("height") - margin.top - margin.bottom,
+        g2 = svg2.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 var x = d3.scaleBand()
     .rangeRound([0, width])
@@ -46,12 +52,16 @@ var y = d3.scaleLinear()
 
 d3.csv("candidate_combinations.csv", function(error, data) {
   if (error) throw error;
-  data = data.slice(0,30)
+  buildChart(g2, data)
+  buildChart(g, data.slice(0, 30))
+});
+
+function buildChart(el, data) {
   data.sort(function(a, b) { return b.ballots - a.ballots; });
   x.domain(data.map(function(d) { return candidateLabel(d); }));
   y.domain([0, d3.max(data, function(d) { return +d.ballots; })]).nice();
 
-  var rect = g.append("g")
+  var rect = el.append("g")
   .selectAll("rect")
     .data(data)
     .enter()
@@ -66,7 +76,7 @@ d3.csv("candidate_combinations.csv", function(error, data) {
       return `${Number(d.ballots).toLocaleString()} ballots - ${d.percentage}%`
     });
 
-  g.append("g")
+  el.append("g")
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x))
@@ -78,7 +88,7 @@ d3.csv("candidate_combinations.csv", function(error, data) {
       .attr("text-anchor", "start")
       .attr("transform", "rotate(90)");
 
-  g.append("g")
+  el.append("g")
       .attr("class", "axis")
       .call(d3.axisLeft(y).ticks(null, "s"))
     .append("text")
@@ -89,7 +99,7 @@ d3.csv("candidate_combinations.csv", function(error, data) {
       .attr("font-weight", "bold")
       .attr("text-anchor", "start")
       .text("Ballots");
-});
+}
 
 function candidateLabel(d) {
   const {a,b,c} = d;
