@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@chartjunksf"/>
+<meta name="twitter:title" content="2018 San Francisco Mayoral Race - Ranked Choice Ballot Combinations (any candidate order)"/>
+<meta name="twitter:image" content="http://www.chartjunksf.com/20180605_election/candidate_combinations/preview.png"/>
+<title>2018 San Francisco Mayoral Race - Ranked Choice Ballot Combinations (any candidate order)</title>
+<style>
+.axis {
+  text-transform: capitalize;
+}
+.axis .domain {
+  display: none;
+}
+
+p, h1 {
+  width: 800px;
+  margin-left: 50px;
+}
+
+</style>
+</head>
+<body>
+<h1>2018 San Francisco Mayoral Race - Ranked Choice Ballot Combinations (any candidate order)</h1>
+<svg width="960" height="500"></svg>
+<p>The number of times each set of candidates appeared together on a ballot, no matter who the first, second, and third choice candidates were.
+For example, votes for Kim (1), Leno (2), Breed (3) and Leno (1), Kim (2), Breed (3) both count towards the first column.</p>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var svg = d3.select("svg"),
+    margin = {top: 20, right: 20, bottom: 150, left: 40},
+    width = +svg.attr("width") - margin.left - margin.right,
+    height = +svg.attr("height") - margin.top - margin.bottom,
+    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var x = d3.scaleBand()
+    .rangeRound([0, width])
+    .paddingInner(0.05)
+    .align(0.1);
+
+var y = d3.scaleLinear()
+    .rangeRound([height, 0]);
+
+d3.csv("candidate_combinations.csv", function(error, data) {
+  if (error) throw error;
+  data = data.slice(0,30)
+  data.sort(function(a, b) { return b.ballots - a.ballots; });
+  x.domain(data.map(function(d) { return candidateLabel(d); }));
+  y.domain([0, d3.max(data, function(d) { return +d.ballots; })]).nice();
+
+  var rect = g.append("g")
+  .selectAll("rect")
+    .data(data)
+    .enter()
+    .append("rect")
+    .attr("fill", "#8a89a6")
+    .attr("x", function(d) { return x(candidateLabel(d)); })
+    .attr("y", function(d) { return y(d.ballots); })
+    .attr("height", function(d) { return height - y(d.ballots); })
+    .attr("width", x.bandwidth());
+
+    rect.append("svg:title").text(function(d, i) {
+      return `${Number(d.ballots).toLocaleString()} ballots - ${d.percentage}%`
+    });
+
+  g.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x))
+      // vertical axis labels
+      .selectAll("text")
+      .attr("y", 0)
+      .attr("x", 9)
+      .attr("dy", ".35em")
+      .attr("text-anchor", "start")
+      .attr("transform", "rotate(90)");
+
+  g.append("g")
+      .attr("class", "axis")
+      .call(d3.axisLeft(y).ticks(null, "s"))
+    .append("text")
+      .attr("x", 2)
+      .attr("y", y(y.ticks().pop()) + 0.5)
+      .attr("dy", "0.32em")
+      .attr("fill", "#000")
+      .attr("font-weight", "bold")
+      .attr("text-anchor", "start")
+      .text("Ballots");
+});
+
+function candidateLabel(d) {
+  const {a,b,c} = d;
+  const selected = [];
+  if (a) selected.push(format(a));
+  if (b) selected.push(format(b));
+  if (c) selected.push(format(c));
+  return selected.sort().join(" - ");
+}
+
+function format(name) {
+  return name
+    .split(" ")
+    .pop()
+    .toLowerCase();
+}
+
+</script>
+</body>
+</html>
