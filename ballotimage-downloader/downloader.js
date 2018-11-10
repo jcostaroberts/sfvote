@@ -2,22 +2,33 @@
  * Doanload ballot images from an election
  */
 const request = require("request"),
-  fs = require("fs");
+  fs = require("fs"),
+  moment = require("moment"),
+  downloadBallotImages = require("./ballot-images.js");
 
-const downloadBallotImages = require("./ballot-images.js");
+const DATE_FORMAT = "MM-DD-YYYY";
 
-const ELECTION_DATE = "11-06-2018";
+const args = process.argv.slice(2);
+const imagesDir = args[0];
+const electionDate = args[1];
+if (!isValid(electionDate)) {
+  throw new Error(
+    `Invalid date ${electionDate} - expected format ${DATE_FORMAT}`
+  );
+}
+
+function isValid(date) {
+  return moment(date, DATE_FORMAT).isValid();
+}
 
 (async function() {
-  const images = await downloadBallotImages(ELECTION_DATE);
-  console.log(images);
+  const images = await downloadBallotImages(electionDate);
 
   images.forEach(image => {
     console.log(`Downloading image: ${image.race} - ${image.url}`);
 
-    const dir = "images";
-    if (!fs.existsSync(dir)) fs.mkdirSync(dir);
-    const fileName = `${dir}/${ELECTION_DATE}-${image.race}.txt`;
+    if (!fs.existsSync(imagesDir)) fs.mkdirSync(dir);
+    const fileName = `${imagesDir}/${electionDate}-${image.race}.txt`;
     const file = fs.createWriteStream(fileName);
     fs.writeFileSync(fileName);
 
