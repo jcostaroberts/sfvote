@@ -4,7 +4,7 @@
 IMAGES_DIR='images';
 
 do_dependency_check() {
-  required=(http-server node)
+  required=(http-server node magick)
 
   for x in ${required[@]}; do
     if ! [[ -x `command -v ${x}` ]]; then
@@ -42,7 +42,10 @@ do_sunburst() {
   for dir in sunburst-${date}*;
   do
     log "generating screenshot for ${dir}"
+    # generate preview image for twitter card
     node screenshot.js "http://localhost:8082/${dir}" "${dir}/preview.png"
+    # create thumbnail for github gist
+    magick convert "${dir}/preview.png" -resize 230x120 "${dir}/thumbnail.png"
   done
 }
 
