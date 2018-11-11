@@ -40,7 +40,7 @@ async function composeBallots(directory, outputType) {
       return ballotToLine(voterId, ballots[voterId], masterLookup);
     });
 
-    if (outputType === "sunburst") {
+    if (outputType === "--sunburst") {
       console.log(`---Generating sunburst output for ${r} ---`);
       const file = `sunburst/${r}`.replace(".txt", ".json");
       fs.writeFile(file, JSON.stringify(sunburst(lines)), function(err) {

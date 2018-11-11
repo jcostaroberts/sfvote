@@ -1,0 +1,75 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+h1 {
+  text-align: center;
+}
+
+#container {
+  width: 800px;
+}
+
+#main {
+  width: 700px;
+  float: left;
+}
+
+#chart {
+  position: relative;
+}
+
+#sidebar {
+  width: 100px;
+  float: right;
+  padding-top: 100px;
+  text-transform: capitalize;
+}
+
+#results-explanation {
+  width: 100px;
+  left: 300px;
+}
+.explanation {
+  /* border: 1px solid green; */
+  position: absolute;
+  top: 240px;
+  left: 250px;
+  width: 200px;
+  text-align: center;
+  color: #666;
+}
+
+.muted {
+  color: #bbb;
+}
+
+.explanation p,
+.explanation ul,
+.explanation li {
+  margin: 0;
+  padding: 0;
+}
+
+.choices {
+  margin: 0 auto;
+  padding: 0;
+  padding-left: 10px;
+  display: inline-block;
+  width: 100%;
+}
+
+.choice {
+  text-transform: capitalize;
+  text-align: left;
+}
+
+#percentage {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 0;
+}
+
+#ballot {
+  font-size: 1.2em;
+}
