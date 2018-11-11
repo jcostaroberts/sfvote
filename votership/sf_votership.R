@@ -47,3 +47,29 @@ ggplot(lmavgexp, aes(fill=type, y=pct, x=date)) +
   scale_fill_discrete(labels=c("Not registered", "Didn't vote", "Skipped measure", "Voted on measure")) +
   theme(legend.text=element_text(face="bold"))
 dev.off()
+
+lm$pctturnout <- lm$turnout/lm$registration
+lmavg$pctturnout <- sapply(unique(lm$date), function(x) lm$pctturnout[which(lm$date == x)[1]])
+lm$pctreg <- lm$registration/lm$pop
+lmavg$pctreg <- sapply(unique(lm$date), function(x) lm$pctreg[which(lm$date == x)[1]])
+
+pdf(file="~/Downloads/sf_votership_histograms.pdf", width=6, height=9)
+par(mfrow=c(3,1))
+# votes/turnout for all measures
+hist(100*lm$pctvote,
+     main="Voting rate (votes/turnout) for San Francisco measures, 2012-2018",
+     xlab="Voting rate (%)",
+     las=1)
+# turnout/registration for all elections
+hist(100*lmavg$pctturnout,
+     main="Turnout rate (turnout/registration) for San Franciscio elections, 2012-2018",
+     xlab="Turnout (%)",
+     yaxt="n")
+axis(2, at=c(0, 1, 2, 3), las=1)
+# registration/population for all elections
+hist(100*lmavg$pctreg,
+     main="Registration rate as percentage of voting-age San Francisco population, 2012-2018",
+     xlab="Registration rate (%)",
+     yaxt="n")
+axis(2, at=c(0, 1, 2, 3), las=1)
+dev.off()
