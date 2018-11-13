@@ -14,122 +14,38 @@
   display: none;
 }
 
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 p, h1 {
   width: 800px;
   margin-left: 50px;
 }
 
+.bar:hover {
+  opacity: .75
+}
+
+.hidden {
+  display: none;
+}
+
+.bottom-label {
+  fill: #eee;
+}
+
+.bottom-label.highlighted {
+  fill: #333;
+}
+
+
 </style>
 </head>
 <body>
-<h1>San Francisco Ballot Measures Since 2012</h1>
 <svg id="svg-1" width="1200" height="500"></svg>
-<p>explanation...</p>
-<p>more exmplanation...</p>
-<svg id="svg-2" width="1200" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
-
-var svg = d3.select("#svg-1"),
-    margin = {top: 20, right: 20, bottom: 150, left: 40},
-    width = +svg.attr("width") - margin.left - margin.right,
-    height = +svg.attr("height") - margin.top - margin.bottom,
-    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-    var svg2 = d3.select("#svg-2"),
-        width = +svg2.attr("width") - margin.left - margin.right,
-        height = +svg2.attr("height") - margin.top - margin.bottom,
-        g2 = svg2.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-var x = d3.scaleBand()
-    .rangeRound([0, width])
-    .paddingInner(0.05)
-    .align(0.1);
-
-var y = d3.scaleLinear()
-    .rangeRound([height, 0]);
-
-d3.csv("20181111_sf_measures_yes.csv", function(error, data) {
-  if (error) throw error;
-  buildChart(g2, data)
-});
-
-function buildChart(el, data) {
-  data.sort(function(a, b) { return b.pct_yes - a.pct_yes; });
-  x.domain(data.map(function(d) { return measureLabel(d); }));
-  y.domain([0, d3.max(data, function(d) { return +d.pct_yes; })]).nice();
-
-  var rect = el.append("g")
-  .selectAll("rect")
-    .data(data)
-    .enter()
-    .append("rect")
-    .attr("fill", function(d) { return d.passed == "1" ? "#95bac4" :"#c18b90"; })
-    .attr("x", function(d) { return x(measureLabel(d)); })
-    .attr("y", function(d) { return y(d.pct_yes); })
-    .attr("height", function(d) { return height - y(d.pct_yes); })
-    .attr("width", x.bandwidth());
-    rect.append("svg:title").text(function(d, i) {
-        return measureLabel(d) + ": " + d.short_description;
-    });
-
-  el.append("g")
-      .attr("class", "axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x))
-      // vertical axis labels
-      .selectAll("text")
-      .attr("y", 0)
-      .attr("x", 9)
-      .attr("dy", ".35em")
-      .attr("text-anchor", "start")
-      .attr("transform", "rotate(90)");
-
-  el.append("g")
-      .attr("class", "axis")
-      .call(d3.axisLeft(y).ticks(null, ".0%"))
-    .append("text")
-      .attr("x", 2)
-      .attr("y", y(y.ticks().pop()) + 0.5)
-      .attr("dy", "0.32em")
-      .attr("fill", "#000")
-      .attr("font-weight", "bold")
-      .attr("text-anchor", "start")
-
-  el.append("line")
-    .attr("x1", 0)
-    .attr("y1", y(0.5))
-    .attr("x2", width)
-    .attr("y2", y(0.5))
-    .attr("stroke", "black")
-    .style("stroke-dasharray", ("3, 3"))
-    .attr("stroke-width", 1);
-
-  el.append("line")
-    .attr("x1", 0)
-    .attr("y1", y(0.666667))
-    .attr("x2", width)
-    .attr("y2", y(0.666667))
-    .attr("stroke", "black")
-    .style("stroke-dasharray", ("3, 3"))
-    .attr("stroke-width", 1);
-}
-
-function measureLabel(d) {
-  return ["Prop ", d.measure, ", ", formatDate(d.date)].join("")
-}
-
-function formatDate(d) {
-  var yr = d.substring(0, 4)
-  var mo = d.substring(4, 6)
-  if (mo == "06") {
-      mo = "Jun."
-  } else if (mo == "11") {
-      mo = "Nov."
-  }
-  return [mo, yr].join(" ")
-}
-
-</script>
+<script src="yesvotes.js"></script>
 </body>
 </html>
