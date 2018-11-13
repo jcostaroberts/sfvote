@@ -27,14 +27,14 @@ async function composeBallots(directory, outputType) {
   results.forEach(async r => {
     const path = `${directory}/${r}`;
     const choices = await readBallot(path);
-    console.log(`read ${choices.length} choices from ${path}`);
+    console.debug(`read ${choices.length} choices from ${path}`);
     // choices contains one object for each first, second, and third choice vote
     const ballots = choices.reduce(function(rv, b) {
       // map first, second, third choice votes from the same ballot
       (rv[b["perfVoterId"]] = rv[b["perfVoterId"]] || []).push(b);
       return rv;
     }, {});
-    console.log(`read ${Object.keys(ballots).length} ballots from ${path}`);
+    console.debug(`read ${Object.keys(ballots).length} ballots from ${path}`);
 
     const lines = Object.keys(ballots).map(voterId => {
       return ballotToLine(voterId, ballots[voterId], masterLookup);

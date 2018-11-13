@@ -21,16 +21,13 @@ if (!fs.existsSync(targetPath)) {
 }
 
 fs.copyFileSync(file, `${targetPath}/data.json`);
-console.log(`copied file ${file} to data.json`);
 files.forEach(f => {
   if (isTemplate(f)) {
     const html = compileTemplate(f, race, date, targetPath);
     fs.writeFileSync(`${targetPath}/index.html`, html);
-    console.log(`wrote file index.html`);
   } else {
     // just copy this to the target directory
     fs.copyFileSync(`${TEMPLATE_PATH}/${f}`, `${targetPath}/${f}`);
-    console.log(`copied file ${f}`);
   }
 });
 

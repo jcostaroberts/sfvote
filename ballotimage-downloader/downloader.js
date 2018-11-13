@@ -25,7 +25,7 @@ function isValid(date) {
   const images = await downloadBallotImages(electionDate);
 
   images.forEach(image => {
-    console.log(`Downloading image: ${image.race} - ${image.url}`);
+    console.debug(`Downloading image: ${image.race} - ${image.url}`);
 
     if (!fs.existsSync(imagesDir)) fs.mkdirSync(dir);
     const fileName = `${imagesDir}/${electionDate}-${image.race}.txt`;
@@ -36,7 +36,7 @@ function isValid(date) {
       .get(image.url)
       .pipe(file)
       .on("finish", function() {
-        console.log(`Finished downloading image: ${image.race}`);
+        console.debug(`Finished downloading image: ${image.race}`);
         file.close();
       });
   });

@@ -49,13 +49,15 @@ async function downloadBallotImages(electionDate) {
       }
 
       const title = $(".panel-title");
-      console.log(`Found ${title.length} election results`);
+      console.log(
+        `Found ${
+          title.length
+        } election results...parsing ${title.first().text()}`
+      );
       if (!title) {
-        console.log("No election results found");
+        console.error("No election results found");
         return;
       }
-
-      console.log(`Parsing election results from ${title.first().text()}...`);
 
       const ballotImages = $(".panel-title")
         .first()

@@ -16,8 +16,7 @@ async function screenshot(url, path) {
     .goto(url)
     .wait(3000) // let d3 draw the chart
     .screenshot(`${path}`)
-    .end()
-    .then(() => console.log("done"));
+    .end();
 }
 
 const [url, path] = process.argv.slice(2);
